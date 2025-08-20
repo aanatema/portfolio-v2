@@ -6,8 +6,8 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 import pp from "../../../public/pp.jpg";
+import abtasty from "../../../public/abtasty.png";
 import { FileText, FolderIcon } from "lucide-react";
-import { Folder } from "lucide-react";
 
 export function HomepageAccordion() {
 	return (
@@ -92,16 +92,22 @@ export function HomepageAccordion() {
 			<AccordionItem value='item-3'>
 				<AccordionTrigger>Expérience pro</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-4 text-balance'>
-					<p>
-						We stand behind our products with a comprehensive 30-day
-						return policy. If you&apos;re not completely satisfied,
-						simply return the item in its original condition.
-					</p>
-					<p>
-						Our hassle-free return process includes free return
-						shipping and full refunds processed within 48 hours of
-						receiving the returned item.
-					</p>
+					<section className='flex col-2 gap-10'>
+						<Image
+							src={abtasty}
+							alt='AB Tasty logo'
+							className='rounded-sm h-15 w-65 md:h-40 md:w-40 self-center'
+						/>
+
+						<section>
+							<br />
+							<p className='text-justify'>
+								AB Tasty est une entreprise française proposant
+								des solutions d&apos;A/B testing, de
+								personnalisation et d&apos;analytics.
+							</p>
+						</section>
+					</section>
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-4'>
