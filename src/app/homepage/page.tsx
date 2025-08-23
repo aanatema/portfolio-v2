@@ -1,6 +1,12 @@
+import { HomepageAccordion } from "@/app/components/HomepageAccordion";
+import HomepageRedirection from "@/app/components/HomepageRedirection";
+
 export default function HomepageLayout() {
     return (
-        <h1>homepage</h1>
+        <>
+            <HomepageRedirection />
+            <HomepageAccordion />
+        </>
         
     )
 }

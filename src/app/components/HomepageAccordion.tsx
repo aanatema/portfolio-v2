@@ -7,7 +7,13 @@ import {
 import Image from "next/image";
 import pp from "../../../public/pp.jpg";
 import abtasty from "../../../public/abtasty.png";
-import { FileText, FolderIcon } from "lucide-react";
+import {
+	ChevronDown,
+	FileText,
+	FolderIcon,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function HomepageAccordion() {
 	return (
@@ -17,7 +23,7 @@ export function HomepageAccordion() {
 			className='w-full mt-10 pr-6 pl-6'
 			defaultValue='item-1'>
 			<AccordionItem value='item-1'>
-				<AccordionTrigger>About</AccordionTrigger>
+				<AccordionTrigger>À propos</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-4 text-balance text-justify'>
 					<section className='flex justify-center'>
 						<Image
@@ -27,8 +33,8 @@ export function HomepageAccordion() {
 						/>
 					</section>
 
-					<section>
-						<header className='font-bold'>TL:DR</header>
+					<section className='mb-5'>
+						<header className='font-bold'>Intro</header>
 						<p className='tracking-[3] text-start uppercase'>
 							[Open to work] / [Nantes]
 						</p>
@@ -40,35 +46,18 @@ export function HomepageAccordion() {
 							le champ de mes compétences.
 						</p>
 					</section>
-
-					<section>
-						<header className='font-bold'>Présentation</header>
-						<br />
-						<p>
-							Issue d’un cursus littéraire, j’ai choisi de me
-							réorienter afin de m’aligner avec mon besoin de
-							réaliser des tâches concrètes et utiles.
-							<br />
-							Mon alternance au sein d’
-							<strong>AB Tasty</strong> m’a permis d’appliquer
-							cette volonté dans diverses situations réelles :
-							implémenter des fonctionnalités demandées par les
-							clients, documenter et actualiser nos processus
-							internes, améliorer les interfaces pour une
-							utilisation fluidifiée.
-						</p>
-						<br />
-						<p>
-							J’apprécie beaucoup échanger sur les questions d’
-							<strong>UI/UX</strong> et les prendre en
-							considération dans mes projets pro et perso. Il es
-							important pour moi de travailler dans une équipe
-							variée où l’on peut prendre le temps d’échanger et
-							de se challenger les uns les autres. J’aime
-							apprendre, partager et communiquer sur le terrain
-							professionnel comme personnel.
-						</p>
-						<br />
+					<Link
+						href='/aboutPage'
+						className='flex justify-center'>
+						<ChevronDown stroke='grey' />
+					</Link>
+					<section className='flex flex-row gap-2 justify-between'>
+						<Link href='https://drive.google.com/file/d/1TlAS29rITy7vED9qf4F7MxVS0rXzEIcy/view?usp=drive_link'>
+							<Button>CV</Button>
+						</Link>
+						<Link href='https://github.com/aanatema'>
+							<Button className='uppercase'>Github</Button>
+						</Link>
 					</section>
 				</AccordionContent>
 			</AccordionItem>
