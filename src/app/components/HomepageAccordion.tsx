@@ -49,18 +49,14 @@ export function HomepageAccordion() {
 					<Link
 						href='/aboutPage'
 						className='flex justify-center'>
-						<ChevronDown />
+						<ChevronDown stroke='grey' />
 					</Link>
 					<section className='flex flex-row gap-2 justify-between'>
 						<Link href='https://drive.google.com/file/d/1TlAS29rITy7vED9qf4F7MxVS0rXzEIcy/view?usp=drive_link'>
-							<Button size='sm'>CV</Button>
+							<Button>CV</Button>
 						</Link>
 						<Link href='https://github.com/aanatema'>
-							<Button
-								size='sm'
-								className='uppercase'>
-								Github
-							</Button>
+							<Button className='uppercase'>Github</Button>
 						</Link>
 					</section>
 				</AccordionContent>
