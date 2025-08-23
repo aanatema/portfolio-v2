@@ -7,7 +7,11 @@ import {
 import Image from "next/image";
 import pp from "../../../public/pp.jpg";
 import abtasty from "../../../public/abtasty.png";
-import { FileText, FolderIcon } from "lucide-react";
+import {
+	ChevronDown,
+	FileText,
+	FolderIcon,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -29,7 +33,7 @@ export function HomepageAccordion() {
 						/>
 					</section>
 
-					<section>
+					<section className='mb-5'>
 						<header className='font-bold'>Intro</header>
 						<p className='tracking-[3] text-start uppercase'>
 							[Open to work] / [Nantes]
@@ -41,11 +45,23 @@ export function HomepageAccordion() {
 							Orientée front mais toujours volontaire pour élargir
 							le champ de mes compétences.
 						</p>
-						<section className='flex align-end'>
-							<Link href='/aboutPage'>
-								<Button>En savoir plus</Button>
-							</Link>
-						</section>
+					</section>
+					<Link
+						href='/aboutPage'
+						className='flex justify-center'>
+						<ChevronDown />
+					</Link>
+					<section className='flex flex-row gap-2 justify-between'>
+						<Link href='https://drive.google.com/file/d/1TlAS29rITy7vED9qf4F7MxVS0rXzEIcy/view?usp=drive_link'>
+							<Button size='sm'>CV</Button>
+						</Link>
+						<Link href='https://github.com/aanatema'>
+							<Button
+								size='sm'
+								className='uppercase'>
+								Github
+							</Button>
+						</Link>
 					</section>
 				</AccordionContent>
 			</AccordionItem>
