@@ -3,7 +3,7 @@ import pp from "../../../public/pp.jpg";
 import HomepageRedirection from "../components/HomepageRedirection";
 import { FolderOpen } from "lucide-react";
 
-export default function AboutLayout() {
+export default function AboutPage() {
 	return (
 		<>
 			<HomepageRedirection />

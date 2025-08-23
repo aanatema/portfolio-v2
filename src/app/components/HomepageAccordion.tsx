@@ -64,18 +64,30 @@ export function HomepageAccordion() {
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Projets</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-4 text-balance pl-10'>
-					<section className='flex col-2 gap-5'>
+					<Link
+						href='/biomePage'
+						className='flex col-2 gap-5'>
 						<FileText className='h-8 w-8 shrink-0 stroke-1' />
-						<p>Biome</p>
-					</section>
-					<section className='flex col-2 gap-5'>
+						<p className='flex self-center'>Biome</p>
+					</Link>
+					<Link
+						href='/portfolioPage'
+						className='flex col-2 gap-5'>
 						<FileText className='h-8 w-8 shrink-0 stroke-1' />
-						<p>Topovisio</p>
-					</section>
-					<section className='flex col-2 gap-5'>
+						<p className='flex self-center'>Portfolio</p>
+					</Link>
+					<Link
+						href='/topovisioPage'
+						className='flex col-2 gap-5'>
+						<FileText className='h-8 w-8 shrink-0 stroke-1' />
+						<p className='flex self-center'>Topovisio</p>
+					</Link>
+					<Link
+						href='/schoolPage'
+						className='flex col-2 gap-5'>
 						<FolderIcon className='h-8 w-8 shrink-0 stroke-1' />
-						<p>Projets d&apos;école</p>
-					</section>
+						<p className='flex self-center'>Projets d&apos;école</p>
+					</Link>
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-3'>
