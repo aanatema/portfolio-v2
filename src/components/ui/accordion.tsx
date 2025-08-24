@@ -28,8 +28,11 @@ function AccordionItem({
 function AccordionTrigger({
 	className,
 	children,
+	withIcons = true,
 	...props
-}: React.ComponentProps<typeof AccordionPrimitive.Trigger>) {
+}: React.ComponentProps<typeof AccordionPrimitive.Trigger> & {
+	withIcons?: boolean;
+}) {
 	return (
 		<AccordionPrimitive.Header className='flex'>
 			<AccordionPrimitive.Trigger
@@ -39,8 +42,12 @@ function AccordionTrigger({
 					className
 				)}
 				{...props}>
-				<FolderIcon className='h-8 w-8 shrink-0 transition-transform duration-200 group-data-[state=open]:hidden stroke-1' />
-				<FolderOpen className='h-8 w-8 shrink-0 transition-transform duration-200 group-data-[state=closed]:hidden stroke-1' />
+				{withIcons && (
+					<>
+						<FolderIcon className='h-8 w-8 shrink-0 transition-transform duration-200 group-data-[state=open]:hidden stroke-1' />
+						<FolderOpen className='h-8 w-8 shrink-0 transition-transform duration-200 group-data-[state=closed]:hidden stroke-1' />
+					</>
+				)}
 				{children}
 			</AccordionPrimitive.Trigger>
 		</AccordionPrimitive.Header>
@@ -57,7 +64,7 @@ function AccordionContent({
 			data-slot='accordion-content'
 			className='data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm'
 			{...props}>
-			<div className={cn("pt-6 pb-6 ", className)}>{children}</div>
+			<div className={cn("pt-6 ", className)}>{children}</div>
 		</AccordionPrimitive.Content>
 	);
 }
