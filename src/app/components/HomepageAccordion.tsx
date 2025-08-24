@@ -105,33 +105,42 @@ export function HomepageAccordion() {
 			</AccordionItem>
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Projets</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-4 text-balance pl-10'>
+				<AccordionContent className='flex flex-col gap-6 text-balance pl-10'>
 					<Link
 						href='/biomePage'
 						className='flex col-2 gap-5'>
-						<FileText className='h-8 w-8 shrink-0 stroke-1 self-center' />
+						<FileText className='h-8 w-8 shrink-0 stroke-1 stroke-pink self-center' />
 						<div className='flex flex-col'>
-							<p className='uppercase'>Biome</p>
+							<p className='uppercase tracking-[3]'>Biome</p>
 							<p>Projet de diplôme</p>
 						</div>
 					</Link>
 					<Link
 						href='/portfolioPage'
 						className='flex col-2 gap-5'>
-						<FileText className='h-8 w-8 shrink-0 stroke-1' />
-						<p className='flex self-center'>Portfolio</p>
+						<FileText className='h-8 w-8 shrink-0 stroke-1 stroke-yellow' />
+
+						<div className='flex flex-col'>
+							<p className='uppercase tracking-[3]'>Portfolio</p>
+							<p>Projet perso</p>
+						</div>
 					</Link>
 					<Link
 						href='/topovisioPage'
 						className='flex col-2 gap-5'>
-						<FileText className='h-8 w-8 shrink-0 stroke-1' />
-						<p className='flex self-center'>Topovisio</p>
+						<FileText className='h-8 w-8 shrink-0 stroke-1 stroke-blue' />
+						<div className='flex flex-col '>
+							<p className='uppercase tracking-[3]'>Topovisio</p>
+							<p>Site vitrine</p>
+						</div>
 					</Link>
 					<Link
 						href='/schoolPage'
 						className='flex col-2 gap-5'>
 						<FolderIcon className='h-8 w-8 shrink-0 stroke-1' />
-						<p className='flex self-center'>Projets d&apos;école</p>
+						<p className='flex self-center tracking-[3] uppercase'>
+							Projets d&apos;école
+						</p>
 					</Link>
 				</AccordionContent>
 			</AccordionItem>
