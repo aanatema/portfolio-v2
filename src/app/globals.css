@@ -44,6 +44,7 @@
   --color-pink: var(--pink);
   --color-yellow: var(--yellow);
   --color-blue: var(--blue);
+  --color-abt-blue: var(--abt-blue);
 }
 
 :root {
@@ -81,7 +82,8 @@
   --sidebar-ring: oklch(0.705 0.015 286.067);
   --pink: oklch(0.724 0.1442 1.81);
   --yellow:oklch(0.8222 0.1396 83.45);
-  --blue: oklch(0.7706 0.0756 245.24)
+  --blue: oklch(0.7706 0.0756 245.24);
+  --abt-blue : oklch(0.3824 0.239898 275.2352);
 }
 
 .dark {
