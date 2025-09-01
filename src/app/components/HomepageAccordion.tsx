@@ -9,7 +9,7 @@ import Link from "next/link";
 import AboutSection from "./AboutSection";
 import FrontendTechnoList from "./TechnoList/FrontendTechnoList";
 import BackendTechnoList from "./TechnoList/BackendTechnoList";
-import BiomeProject from "./Buttons/Badges/BiomeProject";
+import BiomeProject from "./Buttons/BiomeProject";
 import PortfolioProject from "./Buttons/PortfolioProject";
 import TopovisioProject from "./Buttons/TopovisioProject";
 import SchoolProjects from "./Buttons/SchoolProjects";
