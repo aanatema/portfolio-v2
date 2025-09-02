@@ -9,6 +9,7 @@ import { FolderOpen } from "lucide-react";
 import BiomeLogo from "../components/Images/BiomeLogo";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 
 export default function BiomePage() {
 	return (
@@ -91,6 +92,35 @@ export default function BiomePage() {
 									l’authentification, et la communication
 									entre le frontend et l’API.
 								</p>
+								<br />
+								<header className='font-bold'>Frontend</header>
+								<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll'>
+									<p>React</p>
+									<Separator orientation='vertical' />
+									<p>Typescript</p>
+									<Separator orientation='vertical' />
+									<p>Tailwind</p>
+									<Separator orientation='vertical' />
+									<p>Shadcn/ui</p>
+									<Separator orientation='vertical' />
+								</section>
+								<br />
+								<header className='font-bold'>Backend</header>
+								<section className='flex flex-row gap-2 mb-2 uppercase overflow-scroll h-5'>
+									<p>Node</p>
+									<Separator orientation='vertical' />
+									<p>Express</p>
+									<Separator orientation='vertical' />
+									<p>Typescript</p>
+									<Separator orientation='vertical' />
+									<p>PostgreSQL</p>
+									<Separator orientation='vertical' />
+									<p>Prisma</p>
+									<Separator orientation='vertical' />
+									<p>JWT</p>
+									<Separator orientation='vertical' />
+									<p>bcrypt</p>
+								</section>
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem value='item-3'>
