@@ -1,0 +1,34 @@
+import ResumeBadge from "./Buttons/Badges/ResumeBadge";
+import LinkedinBadge from "./Buttons/Badges/LinkedinBadge";
+import GithubBadge from "./Buttons/Badges/GithubBadge";
+import ProfilePicture from "./Images/ProfilePicture";
+
+export default function AboutSection() {
+	return (
+		<>
+			<section className='flex justify-center'>
+				<ProfilePicture />
+			</section>
+
+			<section className='mb-2'>
+				<header className='font-bold'>Intro</header>
+				<p className='tracking-[3] text-start uppercase'>
+					[Open to work] / [Nantes]
+				</p>
+				<br />
+				<p>
+					Après deux ans de formation, dont douze mois en alternance,
+					je cherche a intégrer une équipe dynamique et bienveillante.
+					J&apos;ai une préférence marquée pour le front mais suis
+					également ouverte a développer mes compétences en back.
+					<br />
+				</p>
+			</section>
+			<section className='flex flex-row gap-2 justify-end'>
+				<ResumeBadge />
+				<LinkedinBadge />
+				<GithubBadge />
+			</section>
+		</>
+	);
+}
