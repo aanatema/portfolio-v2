@@ -9,9 +9,8 @@ import { FolderOpen } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
 
-export default function BiomePage() {
+export default function portfolioPage() {
 	return (
 		<>
 			<HomepageRedirection />
@@ -126,9 +125,6 @@ export default function BiomePage() {
 						</AccordionItem>
 					</Accordion>
 				</section>
-				{/* <section>
-					<Button> Maquettes du projet</Button>
-				</section> */}
 			</main>
 		</>
 	);

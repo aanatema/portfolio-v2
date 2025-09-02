@@ -19,7 +19,7 @@ function AccordionItem({
 	return (
 		<AccordionPrimitive.Item
 			data-slot='accordion-item'
-			className={cn("pt-3 pb-4", className)}
+			className={cn("pt-5", className)}
 			{...props}
 		/>
 	);
