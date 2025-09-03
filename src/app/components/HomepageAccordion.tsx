@@ -49,8 +49,9 @@ export function HomepageAccordion() {
 					<div className='flex flex-col gap-4 items-center'>
 						<p className='uppercase tracking-[3]'>
 							{" "}
-							[Reste du cursus]
+							[Cursus global]
 						</p>
+
 						<ResumeBadge />
 					</div>
 				</AccordionContent>
@@ -72,7 +73,7 @@ export function HomepageAccordion() {
 			</AccordionItem>
 			<AccordionItem value='item-5'>
 				<AccordionTrigger>Contact</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-4 text-balance'>
+				<AccordionContent className='flex flex-col gap-2 text-balance'>
 					<p>
 						We stand behind our products with a comprehensive 30-day
 						return policy. If you&apos;re not completely satisfied,
