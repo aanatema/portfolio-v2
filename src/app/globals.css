@@ -45,6 +45,7 @@
   --color-yellow: var(--yellow);
   --color-blue: var(--blue);
   --color-abt-blue: var(--abt-blue);
+  --color-ada-pink: var(--ada-pink);
 }
 
 :root {
@@ -84,6 +85,7 @@
   --yellow:oklch(0.8222 0.1396 83.45);
   --blue: oklch(0.7706 0.0756 245.24);
   --abt-blue : oklch(0.3824 0.239898 275.2352);
+  --ada-pink: oklch(0.909 0.0441 31.88);
 }
 
 .dark {
