@@ -88,7 +88,7 @@ export default function TopovisioPage() {
 								</p>
 								<div className='mt-5 mb-5 flex flex-col gap-4'>
 									<header className='font-bold'>
-										Technos
+										Technos envisagées
 									</header>
 									<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll h-5'>
 										<p>Vue.js</p>
