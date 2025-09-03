@@ -14,6 +14,7 @@ import SchoolProjects from "./Buttons/SchoolProjects";
 import AbtIntroSection from "./AbtIntroSection";
 import AdaIntroSection from "./AdaIntroSection";
 import UnivIntroSection from "./UnivIntroSection";
+import ResumeBadge from "./Buttons/Badges/ResumeBadge";
 
 export function HomepageAccordion() {
 	return (
@@ -45,9 +46,13 @@ export function HomepageAccordion() {
 					<AbtIntroSection />
 					<AdaIntroSection />
 					<UnivIntroSection />
-					<br />
-
-					<p>Pour une vision plus complète </p>
+					<div className='flex flex-col gap-4 items-center'>
+						<p className='uppercase tracking-[3]'>
+							{" "}
+							[Reste du cursus]
+						</p>
+						<ResumeBadge />
+					</div>
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-4'>
