@@ -1,7 +1,7 @@
 import Link from "next/link";
 import AbtastyLogo from "./Images/AbtastyLogo";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
+import AbtTechnoList from "./TechnoList/AbtTechnoList";
 
 export default function AbtIntroSection() {
 	return (
@@ -31,18 +31,7 @@ export default function AbtIntroSection() {
 					l’amélioration de fonctionnalités existantes, ainsi
 					qu&apos;a la mise a jour et création de documentaion.
 				</p>
-				<header className='font-bold'>Technos</header>
-				<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll h-5'>
-					<p>React</p>
-					<Separator orientation='vertical' />
-					<p>Vite</p>
-					<Separator orientation='vertical' />
-					<p>Typescript</p>
-					<Separator orientation='vertical' />
-					<p>Jest</p>
-					<Separator orientation='vertical' />
-					<p>Docker</p>
-				</section>
+				<AbtTechnoList />
 				<div className='flex justify-end mb-2'>
 					<Badge
 						asChild
