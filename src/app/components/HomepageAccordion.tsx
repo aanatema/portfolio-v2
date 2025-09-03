@@ -4,8 +4,6 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import { ChevronDown } from "lucide-react";
-import Link from "next/link";
 import AboutSection from "./AboutSection";
 import FrontendTechnoList from "./TechnoList/FrontendTechnoList";
 import BackendTechnoList from "./TechnoList/BackendTechnoList";
@@ -13,7 +11,9 @@ import BiomeProject from "./Buttons/BiomeProject";
 import PortfolioProject from "./Buttons/PortfolioProject";
 import TopovisioProject from "./Buttons/TopovisioProject";
 import SchoolProjects from "./Buttons/SchoolProjects";
-import ExperienceSection from "./ExperienceSection";
+import AbtIntroSection from "./AbtIntroSection";
+import AdaIntroSection from "./AdaIntroSection";
+import UnivIntroSection from "./UnivIntroSection";
 
 export function HomepageAccordion() {
 	return (
@@ -28,11 +28,6 @@ export function HomepageAccordion() {
 					<AboutSection />
 					<FrontendTechnoList />
 					<BackendTechnoList />
-					<Link
-						href='/aboutPage'
-						className='flex justify-center'>
-						<ChevronDown stroke='grey' />
-					</Link>
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-2'>
@@ -45,9 +40,14 @@ export function HomepageAccordion() {
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-3'>
-				<AccordionTrigger>Expérience pro</AccordionTrigger>
+				<AccordionTrigger>Parcours</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-4 text-balance'>
-					<ExperienceSection />
+					<AbtIntroSection />
+					<AdaIntroSection />
+					<UnivIntroSection />
+					<br />
+
+					<p>Pour une vision plus complète </p>
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-4'>
