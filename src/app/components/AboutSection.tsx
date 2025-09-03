@@ -2,6 +2,7 @@ import ResumeBadge from "./Buttons/Badges/ResumeBadge";
 import LinkedinBadge from "./Buttons/Badges/LinkedinBadge";
 import GithubBadge from "./Buttons/Badges/GithubBadge";
 import ProfilePicture from "./Images/ProfilePicture";
+import Link from "next/link";
 
 export default function AboutSection() {
 	return (
@@ -23,6 +24,13 @@ export default function AboutSection() {
 					également ouverte a développer mes compétences en back.
 					<br />
 				</p>
+				<section className=''>
+					<Link
+						href='/aboutPage'
+						className='underline'>
+						<p>Lire plus</p>
+					</Link>
+				</section>
 			</section>
 			<section className='flex flex-row gap-2 justify-end'>
 				<ResumeBadge />
