@@ -10,6 +10,7 @@ import {
 	MenubarTrigger,
 } from "@/components/ui/menubar";
 import { MenuIcon } from "lucide-react";
+import Link from "next/link";
 
 export function NavigationMenu() {
 	return (
@@ -22,38 +23,62 @@ export function NavigationMenu() {
 					<MenubarSub>
 						<MenubarSubTrigger>À propos</MenubarSubTrigger>
 						<MenubarSubContent>
-							<MenubarItem> Intro</MenubarItem>
-							<MenubarItem>Présentation</MenubarItem>
+							<Link href='/homepage'>
+								<MenubarItem> Intro</MenubarItem>
+							</Link>
+							<Link href='/aboutPage'>
+								<MenubarItem>Présentation</MenubarItem>
+							</Link>
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
 					<MenubarSub>
 						<MenubarSubTrigger>Projets</MenubarSubTrigger>
 						<MenubarSubContent>
-							<MenubarItem> Biome</MenubarItem>
-							<MenubarItem>Portfolio</MenubarItem>
-							<MenubarItem>Topovisio</MenubarItem>
-							<MenubarItem>Projets d&apos;école</MenubarItem>
+							<Link href='/biomePage'>
+								<MenubarItem> Biome</MenubarItem>
+							</Link>
+							<Link href='/portfolioPage'>
+								<MenubarItem>Portfolio</MenubarItem>
+							</Link>
+							<Link href='/topovisioPage'>
+								<MenubarItem>Topovisio</MenubarItem>
+							</Link>
+							<Link href='/'>
+								<MenubarItem>Projets d&apos;école</MenubarItem>
+							</Link>
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
 					<MenubarSub>
 						<MenubarSubTrigger>Parcours</MenubarSubTrigger>
 						<MenubarSubContent>
-							<MenubarItem>AB Tasty</MenubarItem>
-							<MenubarItem>Ada Tech School</MenubarItem>
-							<MenubarItem>Licence LTMI</MenubarItem>
-							<MenubarItem>CV</MenubarItem>
+							<Link href='/'>
+								<MenubarItem>AB Tasty</MenubarItem>
+							</Link>
+							<Link href='/'>
+								<MenubarItem>Ada Tech School</MenubarItem>
+							</Link>
+							<Link href='/'>
+								<MenubarItem>Licence LTMI</MenubarItem>
+							</Link>
+							<Link href='/'>
+								<MenubarItem>CV</MenubarItem>
+							</Link>
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
-					<MenubarItem className='uppercase tracking-[3]'>
-						Intérêts
-					</MenubarItem>
+					<Link href=''>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Intérêts
+						</MenubarItem>
+					</Link>
 					<MenubarSeparator />
-					<MenubarItem className='uppercase tracking-[3]'>
-						Contact
-					</MenubarItem>
+					<Link href=''>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Contact
+						</MenubarItem>
+					</Link>
 				</MenubarContent>
 			</MenubarMenu>
 		</Menubar>
