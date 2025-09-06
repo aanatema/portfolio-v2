@@ -1,4 +1,3 @@
-import HomepageRedirection from "@/app/components/HomepageRedirection";
 import {
 	Accordion,
 	AccordionContent,
@@ -10,11 +9,12 @@ import BiomeLogo from "../components/Images/BiomeLogo";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import NavigationBar from "../components/NavigationBar";
 
 export default function BiomePage() {
 	return (
 		<>
-			<HomepageRedirection />
+			<NavigationBar />
 			<main className='flex flex-col gap-2 justify-center mt-10 pr-6 pl-6 text-justify'>
 				<header className='flex flex-1 items-start justify-between border-b mb-5'>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
