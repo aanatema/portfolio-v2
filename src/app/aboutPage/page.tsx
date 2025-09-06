@@ -14,7 +14,7 @@ export default function AboutPage() {
 						À propos
 					</h1>
 				</header>
-				<section className='flex justify-center mt-10'>
+				<section className='flex justify-center'>
 					<Image
 						src={pp}
 						alt='Romane Boireau photo'
