@@ -1,7 +1,10 @@
+import NavigationBar from "../components/NavigationBar";
+
 export default function ExperiencePage() {
-    return (
-        <>
-            <h1>XP </h1>
-        </>
-    )
+	return (
+		<>
+			<NavigationBar />
+			<h1>XP </h1>
+		</>
+	);
 }

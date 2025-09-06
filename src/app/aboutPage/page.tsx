@@ -1,20 +1,20 @@
 import Image from "next/image";
 import pp from "../../../public/pp.jpg";
-import HomepageRedirection from "../components/HomepageRedirection";
 import { FolderOpen } from "lucide-react";
+import NavigationBar from "../components/NavigationBar";
 
 export default function AboutPage() {
 	return (
 		<>
-			<HomepageRedirection />
+			<NavigationBar />
 			<main className='flex flex-col gap-2 justify-center mt-10 pr-6 pl-6'>
-				<header className='flex flex-1 items-start justify-between border-b'>
+				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1'>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
 						À propos
 					</h1>
 				</header>
-				<section className='flex justify-center mt-10'>
+				<section className='flex justify-center'>
 					<Image
 						src={pp}
 						alt='Romane Boireau photo'
