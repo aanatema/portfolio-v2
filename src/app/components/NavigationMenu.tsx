@@ -44,7 +44,7 @@ export function NavigationMenu() {
 							<Link href='/topovisioPage'>
 								<MenubarItem>Topovisio</MenubarItem>
 							</Link>
-							<Link href='/'>
+							<Link href='/schoolProjectsPage'>
 								<MenubarItem>Projets d&apos;école</MenubarItem>
 							</Link>
 						</MenubarSubContent>
@@ -68,13 +68,13 @@ export function NavigationMenu() {
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
-					<Link href=''>
+					<Link href='/interestsPage'>
 						<MenubarItem className='uppercase tracking-[3]'>
 							Intérêts
 						</MenubarItem>
 					</Link>
 					<MenubarSeparator />
-					<Link href=''>
+					<Link href='/contactPage'>
 						<MenubarItem className='uppercase tracking-[3]'>
 							Contact
 						</MenubarItem>
