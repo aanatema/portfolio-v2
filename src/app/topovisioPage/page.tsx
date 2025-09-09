@@ -1,4 +1,3 @@
-import HomepageRedirection from "@/app/components/HomepageRedirection";
 import {
 	Accordion,
 	AccordionContent,

@@ -8,8 +8,6 @@ export default function Home() {
 			<div>
 				<HomepageAccordion />
 			</div>
-			<h1>index</h1>
-			<a href='/homepage'> homepage</a>
 		</>
 	);
 }
