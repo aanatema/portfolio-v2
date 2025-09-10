@@ -29,7 +29,9 @@ export default function ExperienceIntro({
 				<br />
 				<div className='text-justify'>{content}</div>
 				{techs && <div className='mt-2'>{techs}</div>}
-				{extra && <div className='flex justify-end mt-2'>{extra}</div>}
+				{extra && (
+					<div className='flex justify-center mt-2'>{extra}</div>
+				)}
 			</section>
 			<Separator />
 		</>
