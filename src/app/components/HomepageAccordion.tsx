@@ -14,6 +14,7 @@ import SchoolProjects from "./Buttons/SchoolProjects";
 
 import ResumeBadge from "./Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
+import ReferencesBadge from "./Buttons/Badges/ReferencesBadge";
 
 export function HomepageAccordion() {
 	return (
@@ -26,6 +27,10 @@ export function HomepageAccordion() {
 				<AccordionTrigger>À propos</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-4 text-balance text-justify'>
 					<AboutSection />
+					<div className='self-center'>
+						<ReferencesBadge />
+					</div>
+
 					<FrontendTechnoList />
 					<BackendTechnoList />
 				</AccordionContent>

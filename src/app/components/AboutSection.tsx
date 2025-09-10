@@ -32,7 +32,7 @@ export default function AboutSection() {
 					</Link>
 				</section>
 			</section>
-			<section className='flex flex-row gap-2 justify-end'>
+			<section className='flex flex-row gap-2 justify-center'>
 				<ResumeBadge />
 				<LinkedinBadge />
 				<GithubBadge />
