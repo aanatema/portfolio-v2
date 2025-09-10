@@ -8,7 +8,7 @@ export default function UnivLogo() {
 				<Image
 					src={univLogo}
 					alt='AB Tasty logo'
-					className='h-15 w-30 md:h-40 md:w-40'
+					className='h-15 w-30 md:h-30 md:w-40'
 				/>
 			</section>
 		</>
