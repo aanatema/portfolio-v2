@@ -6,7 +6,7 @@ export default function References() {
     return (
 		<section id='references'>
 			<h1 className='uppercase tracking-[3] text-center'>
-				Contacts de références
+				[Contacts de références]
 			</h1>
 			<br />
 			<Card>
