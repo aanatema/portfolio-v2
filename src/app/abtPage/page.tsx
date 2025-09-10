@@ -1,8 +1,8 @@
 import { FolderOpen } from "lucide-react";
 import NavigationBar from "../components/NavigationBar";
-import { abtMissionsList } from "../components/AbtMissionsList";
-import AbtMissions from "../components/AbtMissions";
-import AbtTechnoList from "../components/TechnoList/AbtTechnoList";
+import { abtMissionsList } from "./components/AbtMissionsList";
+import AbtMissions from "./components/AbtMissions";
+import AbtTechnoList from "./components/AbtTechnoList";
 import { Separator } from "@/components/ui/separator";
 import References from "../components/References";
 import ReferencesBadge from "../components/Buttons/Badges/ReferencesBadge";
