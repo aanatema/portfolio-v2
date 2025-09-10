@@ -4,17 +4,17 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import AboutSection from "./AboutSection";
-import FrontendTechnoList from "./TechnoList/FrontendTechnoList";
-import BackendTechnoList from "./TechnoList/BackendTechnoList";
-import BiomeProject from "./Buttons/BiomeProject";
-import PortfolioProject from "./Buttons/PortfolioProject";
-import TopovisioProject from "./Buttons/TopovisioProject";
-import SchoolProjects from "./Buttons/SchoolProjects";
+import AboutSection from "../AboutSection";
+import FrontendTechnoList from "../TechnoList/FrontendTechnoList";
+import BackendTechnoList from "../TechnoList/BackendTechnoList";
+import BiomeProject from "../Buttons/BiomeProject";
+import PortfolioProject from "../Buttons/PortfolioProject";
+import TopovisioProject from "../Buttons/TopovisioProject";
+import SchoolProjects from "../Buttons/SchoolProjects";
 
-import ResumeBadge from "./Buttons/Badges/ResumeBadge";
+import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
-import ReferencesBadge from "./Buttons/Badges/ReferencesBadge";
+import ReferencesBadge from "../Buttons/Badges/ReferencesBadge";
 
 export function HomepageAccordion() {
 	return (
