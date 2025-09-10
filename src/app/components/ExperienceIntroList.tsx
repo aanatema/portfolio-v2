@@ -63,7 +63,7 @@ export const ExperienceIntroList = [
 				asChild
 				variant='pink'>
 				<Link
-					href='/experiencePage'
+					href='/schoolProjectsPage'
 					className='uppercase'>
 					Mes projets d&apos;école
 				</Link>
