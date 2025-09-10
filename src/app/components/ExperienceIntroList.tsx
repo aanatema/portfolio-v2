@@ -32,7 +32,7 @@ export const ExperienceIntroList = [
 				asChild
 				variant='blue'>
 				<Link
-					href='/experiencePage'
+					href='/abtPage'
 					className='uppercase'>
 					Mes missions
 				</Link>
