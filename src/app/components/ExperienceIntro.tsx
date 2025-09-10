@@ -1,12 +1,13 @@
+import { Separator } from "@/components/ui/separator";
 import { ReactNode } from "react";
 
 interface ExperienceIntroProps {
-	logo: ReactNode; 
-	context: ReactNode; 
+	logo: ReactNode;
+	context: ReactNode;
 	duration?: string;
-	content: ReactNode; 
-	techs?: ReactNode; 
-	extra?: ReactNode; 
+	content: ReactNode;
+	techs?: ReactNode;
+	extra?: ReactNode;
 }
 
 export default function ExperienceIntro({
@@ -19,8 +20,7 @@ export default function ExperienceIntro({
 }: ExperienceIntroProps) {
 	return (
 		<>
-			
-				{logo}
+			{logo}
 			<section className='mb-2'>
 				<div className='flex flex-col items-center text-center uppercase tracking-[3]'>
 					{context}
@@ -31,6 +31,7 @@ export default function ExperienceIntro({
 				{techs && <div className='mt-2'>{techs}</div>}
 				{extra && <div className='flex justify-end mt-2'>{extra}</div>}
 			</section>
+			<Separator />
 		</>
 	);
 }
