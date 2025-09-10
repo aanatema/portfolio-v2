@@ -1,5 +1,4 @@
 import { FolderOpen } from "lucide-react";
-import AbtastyLogo from "../components/Images/AbtastyLogo";
 import NavigationBar from "../components/NavigationBar";
 import { abtMissionsList } from "../components/AbtMissionsList";
 import AbtMissions from "../components/AbtMissions";
@@ -20,7 +19,7 @@ export default function AbtPage() {
 					</h1>
 				</header>
 				<AbtTechnoList />
-				<div className="self-center mb-5">
+				<div className='self-center mb-5'>
 					<ReferencesBadge />
 				</div>
 				<Separator />
