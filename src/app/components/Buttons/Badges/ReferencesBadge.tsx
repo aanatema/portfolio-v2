@@ -8,7 +8,7 @@ export default function ReferencesBadge() {
 				asChild
 				variant='pink'>
 				<Link
-					href='#references'
+					href='/abtPage#references'
 					className='uppercase'>
 					Contacts de références
 				</Link>
