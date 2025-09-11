@@ -15,8 +15,8 @@ export default function BiomePage() {
 	return (
 		<>
 			<NavigationBar />
-			<main className='flex flex-col gap-2 justify-center mt-10 pr-6 pl-6 text-justify'>
-				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1'>
+			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify'>
+				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 md:mx-55'>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
 						Biome
@@ -26,7 +26,7 @@ export default function BiomePage() {
 					<BiomeLogo />
 				</section>
 
-				<section className=''>
+				<section>
 					<Accordion
 						type='single'
 						collapsible
