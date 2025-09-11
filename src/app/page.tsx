@@ -5,9 +5,9 @@ export default function Home() {
 	return (
 		<>
 			<HomepageRedirection />
-			<div>
+			<main className='md:mx-65'>
 				<HomepageAccordion />
-			</div>
+			</main>
 		</>
 	);
 }
