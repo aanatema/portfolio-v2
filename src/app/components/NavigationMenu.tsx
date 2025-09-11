@@ -23,7 +23,7 @@ export function NavigationMenu() {
 					<MenubarSub>
 						<MenubarSubTrigger>À propos</MenubarSubTrigger>
 						<MenubarSubContent>
-							<Link href='/homepage'>
+							<Link href='/'>
 								<MenubarItem> Intro</MenubarItem>
 							</Link>
 							<Link href='/aboutPage'>

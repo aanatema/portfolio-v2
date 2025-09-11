@@ -4,7 +4,6 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import AboutSection from "../AboutSection";
 import FrontendTechnoList from "../TechnoList/FrontendTechnoList";
 import BackendTechnoList from "../TechnoList/BackendTechnoList";
 import BiomeProject from "../Buttons/BiomeProject";
@@ -15,6 +14,7 @@ import SchoolProjects from "../Buttons/SchoolProjects";
 import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
 import ReferencesBadge from "../Buttons/Badges/ReferencesBadge";
+import AboutSection from "./AboutSection";
 
 export function HomepageAccordion() {
 	return (
