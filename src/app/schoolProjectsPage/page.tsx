@@ -15,7 +15,7 @@ export default function SchoolProjectsPage() {
 					</h1>
 				</header>
 
-				<section className='flex flex-col gap-4'>
+				<section className='flex flex-col gap-4 md:mx-55'>
 					{schoolProjects.map((project, index) => (
 						<ProjectCard
 							key={index}
