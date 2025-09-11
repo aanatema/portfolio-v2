@@ -1,5 +1,5 @@
-import { HomepageAccordion } from "./components/HomepageAccordion";
-import HomepageRedirection from "./components/HomepageRedirection";
+import { HomepageAccordion } from "./components/HomepageComponents/HomepageAccordion";
+import HomepageRedirection from "./components/HomepageComponents/HomepageRedirection";
 
 export default function Home() {
 	return (
