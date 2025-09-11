@@ -7,7 +7,7 @@ export default function BiomeLogo() {
 			<Image
 				src={biome}
 				alt='Biome logo'
-				className='h-25 w-50 md:h-40 md:w-40'
+				className='h-25 w-50 md:h-40 md:w-80'
 			/>
 		</>
 	);
