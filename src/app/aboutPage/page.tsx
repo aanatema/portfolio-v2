@@ -7,7 +7,7 @@ export default function AboutPage() {
 	return (
 		<>
 			<NavigationBar />
-			<main className='flex flex-col gap-2 justify-center mt-10 pr-6 pl-6'>
+			<main className='flex flex-col gap-2 justify-center mx-7 my-10'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1'>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
@@ -21,7 +21,7 @@ export default function AboutPage() {
 						className='rounded-sm h-38 w-38 md:h-76 md:w-76 '
 					/>
 				</section>
-				<section className=''>
+				<section>
 					<br />
 					<header className='font-bold'>Présentation</header>
 					<br />
