@@ -10,7 +10,7 @@ export default function AbtastyLogo() {
 					<Image
 						src={abtasty}
 						alt='AB Tasty logo'
-						className='h-7 w-32 md:h-20 md:w-80'
+						className='h-7 w-32 md:h-13 md:w-55'
 					/>
 				</Link>
 			</section>
