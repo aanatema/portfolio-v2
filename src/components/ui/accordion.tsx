@@ -19,7 +19,7 @@ function AccordionItem({
 	return (
 		<AccordionPrimitive.Item
 			data-slot='accordion-item'
-			className={cn("pt-5", className)}
+			className={cn("", className)}
 			{...props}
 		/>
 	);
@@ -64,7 +64,7 @@ function AccordionContent({
 			data-slot='accordion-content'
 			className='data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm'
 			{...props}>
-			<div className={cn("pt-5 ", className)}>{children}</div>
+			<div className={cn("pt-5 pb-5", className)}>{children}</div>
 		</AccordionPrimitive.Content>
 	);
 }
