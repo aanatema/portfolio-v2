@@ -37,7 +37,7 @@ export function HomepageAccordion() {
 			</AccordionItem>
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Projets</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-6 text-balance pl-10'>
+				<AccordionContent className='flex flex-col gap-6 text-balance m-5 ml-15 '>
 					<BiomeProject />
 					<PortfolioProject />
 					<TopovisioProject />
