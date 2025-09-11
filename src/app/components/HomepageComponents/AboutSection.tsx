@@ -24,7 +24,7 @@ export default function AboutSection() {
 					également ouverte a développer mes compétences en back.
 					<br />
 				</p>
-				<section className=''>
+				<section>
 					<Link
 						href='/aboutPage'
 						className='underline'>
