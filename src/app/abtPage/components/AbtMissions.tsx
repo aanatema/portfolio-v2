@@ -13,7 +13,7 @@ export default function AbtMissions({
 }: AbtMissionsProps) {
 	return (
 		<section>
-			<h1 className='uppercase tracking-[3] text-left'>[{title}]</h1>
+			<h1 className='uppercase font-medium text-left'>[{title}]</h1>
 
 			<p className='text-muted-foreground text-sm text-justify'>
 				{context}

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function References() {
     return (
 		<section id='references'>
-			<h1 className='uppercase tracking-[3] text-center'>
+			<h1 className='uppercase font-medium text-center'>
 				[Contacts de références]
 			</h1>
 			<br />
