@@ -94,7 +94,7 @@ export default function BiomePage() {
 								</p>
 								<br />
 								<header className='font-bold'>Frontend</header>
-								<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll'>
+								<section className='flex flex-row gap-2 uppercase h-5 overflow-scroll'>
 									<p>React</p>
 									<Separator orientation='vertical' />
 									<p>Typescript</p>

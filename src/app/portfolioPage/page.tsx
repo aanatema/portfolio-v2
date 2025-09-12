@@ -95,7 +95,7 @@ export default function portfolioPage() {
 								Technos
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
-								<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll h-5'>
+								<section className='flex flex-row gap-2 uppercase overflow-scroll h-5'>
 									<p>React</p>
 									<Separator orientation='vertical' />
 									<p>Next</p>

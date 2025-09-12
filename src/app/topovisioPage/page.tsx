@@ -90,7 +90,7 @@ export default function TopovisioPage() {
 									<header className='font-bold'>
 										Technos envisagées
 									</header>
-									<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll h-5'>
+									<section className='flex flex-row gap-2 uppercase overflow-scroll h-5'>
 										<p>Vue.js</p>
 										<Separator orientation='vertical' />
 										<p>Nuxt</p>

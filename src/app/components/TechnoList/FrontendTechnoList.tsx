@@ -4,7 +4,7 @@ export default function FrontendTechnoList() {
     return (
 		<>
 			<header className='font-bold'>Frontend</header>
-			<section className='flex flex-row gap-2 uppercase h-5 text-sm overflow-scroll h-5'>
+			<section className='flex flex-row gap-2 uppercase overflow-scroll h-5'>
 				<p>React</p>
 				<Separator orientation='vertical' />
 				<p>Next</p>
