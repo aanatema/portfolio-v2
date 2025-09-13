@@ -1,8 +1,8 @@
-import ResumeBadge from "./Buttons/Badges/ResumeBadge";
-import LinkedinBadge from "./Buttons/Badges/LinkedinBadge";
-import GithubBadge from "./Buttons/Badges/GithubBadge";
-import ProfilePicture from "./Images/ProfilePicture";
 import Link from "next/link";
+import ProfilePicture from "../Images/ProfilePicture";
+import GithubBadge from "../Buttons/Badges/GithubBadge";
+import LinkedinBadge from "../Buttons/Badges/LinkedinBadge";
+import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 
 export default function AboutSection() {
 	return (
@@ -24,7 +24,7 @@ export default function AboutSection() {
 					également ouverte a développer mes compétences en back.
 					<br />
 				</p>
-				<section className=''>
+				<section>
 					<Link
 						href='/aboutPage'
 						className='underline'>

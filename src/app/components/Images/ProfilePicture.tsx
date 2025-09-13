@@ -7,7 +7,7 @@ export default function ProfilePicture() {
 			<Image
 				src={pp}
 				alt='Romane Boireau photo'
-				className='rounded-sm h-35 w-35 md:h-76 md:w-76'
+				className='rounded-sm h-35 w-35 md:h-40 md:w-40'
 			/>
 		</>
 	);

@@ -1,13 +1,13 @@
-import { HomepageAccordion } from "./components/HomepageAccordion";
-import HomepageRedirection from "./components/HomepageRedirection";
+import { HomepageAccordion } from "./components/HomepageComponents/HomepageAccordion";
+import HomepageRedirection from "./components/HomepageComponents/HomepageRedirection";
 
 export default function Home() {
 	return (
 		<>
 			<HomepageRedirection />
-			<div>
+			<main className='md:mx-65'>
 				<HomepageAccordion />
-			</div>
+			</main>
 		</>
 	);
 }

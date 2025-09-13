@@ -8,7 +8,7 @@ export default function AdaLogo() {
 				<Image
 					src={adaLogo}
 					alt='AB Tasty logo'
-					className='h-7 w-32 md:h-40 md:w-40'
+					className='h-7 w-32 md:h-20 md:w-40'
 				/>
 			</section>
 		</>

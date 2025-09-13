@@ -4,17 +4,17 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import AboutSection from "./AboutSection";
-import FrontendTechnoList from "./TechnoList/FrontendTechnoList";
-import BackendTechnoList from "./TechnoList/BackendTechnoList";
-import BiomeProject from "./Buttons/BiomeProject";
-import PortfolioProject from "./Buttons/PortfolioProject";
-import TopovisioProject from "./Buttons/TopovisioProject";
-import SchoolProjects from "./Buttons/SchoolProjects";
+import FrontendTechnoList from "../TechnoList/FrontendTechnoList";
+import BackendTechnoList from "../TechnoList/BackendTechnoList";
+import BiomeProject from "../Buttons/BiomeProject";
+import PortfolioProject from "../Buttons/PortfolioProject";
+import TopovisioProject from "../Buttons/TopovisioProject";
+import SchoolProjects from "../Buttons/SchoolProjects";
 
-import ResumeBadge from "./Buttons/Badges/ResumeBadge";
+import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
-import ReferencesBadge from "./Buttons/Badges/ReferencesBadge";
+import ReferencesBadge from "../Buttons/Badges/ReferencesBadge";
+import AboutSection from "./AboutSection";
 
 export function HomepageAccordion() {
 	return (
@@ -37,7 +37,7 @@ export function HomepageAccordion() {
 			</AccordionItem>
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Projets</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-6 text-balance pl-10'>
+				<AccordionContent className='flex flex-col gap-6 text-balance m-5 ml-15 '>
 					<BiomeProject />
 					<PortfolioProject />
 					<TopovisioProject />
