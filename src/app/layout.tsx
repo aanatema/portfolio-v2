@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
-
+import NavigationBar from "./components/NavigationBar";
+import Footer from "./components/Footer";
 
 const robotoMono = Roboto_Mono({
 	variable: "--font-roboto-mono",
@@ -22,7 +23,11 @@ export default function RootLayout({
 		<html
 			lang='fr'
 			className={`${robotoMono.variable} `}>
-			<body className={`${robotoMono.variable} `}>{children}</body>
+			<body className={`${robotoMono.variable}`}>
+				<NavigationBar />
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }

@@ -1,5 +1,4 @@
 import { FolderOpen } from "lucide-react";
-import NavigationBar from "../components/NavigationBar";
 import { abtMissionsList } from "./components/AbtMissionsList";
 import AbtMissions from "./components/AbtMissions";
 import AbtTechnoList from "./components/AbtTechnoList";
@@ -10,7 +9,6 @@ import ReferencesBadge from "../components/Buttons/Badges/ReferencesBadge";
 export default function AbtPage() {
 	return (
 		<>
-			<NavigationBar />
 			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 '>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />

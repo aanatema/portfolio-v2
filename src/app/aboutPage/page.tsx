@@ -1,10 +1,8 @@
 import { FolderOpen } from "lucide-react";
-import NavigationBar from "../components/NavigationBar";
 
 export default function AboutPage() {
 	return (
 		<>
-			<NavigationBar />
 			<main className='flex flex-col gap-2 justify-center mx-7 my-10 md:mx-55'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 '>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />

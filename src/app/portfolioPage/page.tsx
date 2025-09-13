@@ -8,13 +8,11 @@ import { FolderOpen } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import NavigationBar from "../components/NavigationBar";
 import PortfolioLogo from "../components/Images/PortfolioLogo";
 
 export default function portfolioPage() {
 	return (
 		<>
-			<NavigationBar />
 			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1'>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />

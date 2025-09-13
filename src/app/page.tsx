@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import { HomepageAccordion } from "./components/HomepageComponents/HomepageAccordion";
 import HomepageRedirection from "./components/HomepageComponents/HomepageRedirection";
 
@@ -8,6 +9,7 @@ export default function Home() {
 			<main className='md:mx-65'>
 				<HomepageAccordion />
 			</main>
+			<Footer />
 		</>
 	);
 }
