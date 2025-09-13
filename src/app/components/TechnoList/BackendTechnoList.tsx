@@ -4,7 +4,7 @@ export default function BackendTechnoList() {
     return (
 		<>
 			<header className='font-bold'>Backend</header>
-			<section className='flex flex-row gap-2 mb-2 uppercase overflow-x-scroll md:overflow-x-auto h-7'>
+			<section className='flex flex-row gap-2 mb-4 mt-4 sm:pb-10 uppercase overflow-x-scroll overflow-y-hidden lg:overflow-hidden h-7'>
 				<p>Node</p>
 				<Separator orientation='vertical' />
 				<p>Express</p>
