@@ -9,7 +9,6 @@ export default function Home() {
 			<main className='md:mx-65'>
 				<HomepageAccordion />
 			</main>
-			<Footer />
 		</>
 	);
 }

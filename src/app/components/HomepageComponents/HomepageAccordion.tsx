@@ -21,7 +21,7 @@ export function HomepageAccordion() {
 		<Accordion
 			type='single'
 			collapsible
-			className='w-full mt-5 pr-6 pl-6'
+			className='w-full mt-5 pr-7 pl-7'
 			defaultValue='item-1'>
 			<AccordionItem value='item-1'>
 				<AccordionTrigger>À propos</AccordionTrigger>
