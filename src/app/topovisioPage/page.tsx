@@ -106,7 +106,7 @@ export default function TopovisioPage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								[Status]
+								[Statut]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
