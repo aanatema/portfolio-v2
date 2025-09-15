@@ -34,7 +34,7 @@ export default function BiomePage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Contexte
+								[Contexte]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -75,7 +75,7 @@ export default function BiomePage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Objectifs
+								[Objectifs]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -125,7 +125,7 @@ export default function BiomePage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Resultats et futur
+								[Résultats et futur]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>

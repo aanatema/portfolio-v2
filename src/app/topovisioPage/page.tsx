@@ -28,7 +28,7 @@ export default function TopovisioPage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Contexte
+								[Contexte]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -67,7 +67,7 @@ export default function TopovisioPage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Objectifs
+								[Objectifs]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -106,7 +106,7 @@ export default function TopovisioPage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Status
+								[Status]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -119,7 +119,7 @@ export default function TopovisioPage() {
 									<br />
 									La charte graphique a été validée et
 									l&apos;élaboration des maquettes est
-									maintentant en cours.
+									maintenant en cours.
 								</p>
 							</AccordionContent>
 						</AccordionItem>
