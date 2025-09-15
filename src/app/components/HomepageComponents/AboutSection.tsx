@@ -11,28 +11,32 @@ export default function AboutSection() {
 				<ProfilePicture />
 			</section>
 
-			<section className='mb-2'>
+			<section>
 				<header className='font-bold'>Intro</header>
 				<p className='tracking-[3] text-start uppercase'>
 					[Open to work] / [Nantes]
 				</p>
 				<br />
 				<p>
-					Après deux ans de formation, dont douze mois en alternance,
-					je cherche a intégrer une équipe dynamique et bienveillante.
-					J&apos;ai une préférence marquée pour le front mais suis
-					également ouverte a développer mes compétences en back.
+					Développeuse junior diplômée après deux ans de formation
+					dont douze mois en alternance, je cherche a intégrer une
+					équipe dynamique et bienveillante. J&apos;ai une préférence
+					marquée pour le front, en particulier les aspects liés à
+					l&apos;UI et l&apos;UX, mais suis également curieuse et
+					ouverte à l&apos;idée de développer mes compétences en back.
 					<br />
+					Bienvenue sur mon portfolio, n&apos;hésitez pas à y faire un
+					tour pour en apprendre plus !
 				</p>
-				<section>
+				<section className='justify-self-end'>
 					<Link
 						href='/aboutPage'
 						className='underline'>
-						<p>Lire plus</p>
+						<p>En savoir plus</p>
 					</Link>
 				</section>
 			</section>
-			<section className='flex flex-row gap-2 justify-center'>
+			<section className='flex flex-row gap-2 mt-4 mb-4 justify-evenly'>
 				<ResumeBadge />
 				<LinkedinBadge />
 				<GithubBadge />
