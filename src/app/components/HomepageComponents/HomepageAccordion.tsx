@@ -25,14 +25,16 @@ export function HomepageAccordion() {
 			defaultValue='item-1'>
 			<AccordionItem value='item-1'>
 				<AccordionTrigger>À propos</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-4 text-balance text-justify'>
+				<AccordionContent className='flex flex-col gap-2 text-balance text-justify'>
 					<AboutSection />
+					<div className='mt-4 mb-4'>
+						<FrontendTechnoList />
+						<BackendTechnoList />
+					</div>
+
 					<div className='self-center'>
 						<ReferencesBadge />
 					</div>
-
-					<FrontendTechnoList />
-					<BackendTechnoList />
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-2'>
