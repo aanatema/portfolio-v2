@@ -60,21 +60,6 @@ export function HomepageAccordion() {
 					</div>
 				</AccordionContent>
 			</AccordionItem>
-			<AccordionItem value='item-4'>
-				<AccordionTrigger>Intérêts</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-4 text-balance'>
-					<p>
-						We stand behind our products with a comprehensive 30-day
-						return policy. If you&apos;re not completely satisfied,
-						simply return the item in its original condition.
-					</p>
-					<p>
-						Our hassle-free return process includes free return
-						shipping and full refunds processed within 48 hours of
-						receiving the returned item.
-					</p>
-				</AccordionContent>
-			</AccordionItem>
 			<AccordionItem value='item-5'>
 				<AccordionTrigger>Contact</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-2 text-balance'>
