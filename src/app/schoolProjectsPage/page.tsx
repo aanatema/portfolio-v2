@@ -1,6 +1,7 @@
 import { FolderOpen } from "lucide-react";
 import ProjectCard from "./components/ProjectCard";
 import { schoolProjects } from "./components/SchoolProjectCardList";
+import GithubBadge from "../components/Buttons/Badges/GithubBadge";
 
 export default function SchoolProjectsPage() {
 	return (
@@ -12,7 +13,10 @@ export default function SchoolProjectsPage() {
 						Projets d&apos;école
 					</h1>
 				</header>
-
+				<p className=' pb-4 '>
+					{" "}
+					Tous les projets sur <GithubBadge />
+				</p>
 				<section className='flex flex-col gap-4 '>
 					{schoolProjects.map((project, index) => (
 						<ProjectCard
