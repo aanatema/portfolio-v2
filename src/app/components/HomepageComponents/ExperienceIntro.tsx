@@ -21,16 +21,16 @@ export default function ExperienceIntro({
 	return (
 		<>
 			{logo}
-			<section className='mb-2'>
+			<section className='mb-4'>
 				<div className='flex flex-col items-center text-center uppercase tracking-[3]'>
 					{context}
 					{duration && <p className='text-center'>{duration}</p>}
 				</div>
 				<br />
 				<div className='text-justify'>{content}</div>
-				{techs && <div className='mt-2'>{techs}</div>}
+				{techs && <div>{techs}</div>}
 				{extra && (
-					<div className='flex justify-center mt-2'>{extra}</div>
+					<div className='flex justify-center mt-6'>{extra}</div>
 				)}
 			</section>
 			<Separator />

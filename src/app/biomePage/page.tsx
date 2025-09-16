@@ -9,12 +9,10 @@ import BiomeLogo from "../components/Images/BiomeLogo";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import NavigationBar from "../components/NavigationBar";
 
 export default function BiomePage() {
 	return (
 		<>
-			<NavigationBar />
 			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 '>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
@@ -36,7 +34,7 @@ export default function BiomePage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Contexte
+								[Contexte]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -77,7 +75,7 @@ export default function BiomePage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Objectifs
+								[Objectifs]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
@@ -94,7 +92,7 @@ export default function BiomePage() {
 								</p>
 								<br />
 								<header className='font-bold'>Frontend</header>
-								<section className='flex flex-row gap-2 uppercase h-5 overflow-scroll'>
+								<section className='flex flex-row gap-2 mb-4 mt-4 sm:pb-10 uppercase overflow-x-scroll overflow-y-hidden lg:overflow-hidden h-7'>
 									<p>React</p>
 									<Separator orientation='vertical' />
 									<p>Typescript</p>
@@ -127,7 +125,7 @@ export default function BiomePage() {
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								Resultats et futur
+								[Résultats et futur]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
