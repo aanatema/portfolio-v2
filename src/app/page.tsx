@@ -1,4 +1,3 @@
-import Footer from "./components/Footer";
 import { HomepageAccordion } from "./components/HomepageComponents/HomepageAccordion";
 import HomepageRedirection from "./components/HomepageComponents/HomepageRedirection";
 
