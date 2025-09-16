@@ -50,33 +50,9 @@ export function NavigationMenu() {
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
-					<MenubarSub>
-						<MenubarSubTrigger>Parcours</MenubarSubTrigger>
-						<MenubarSubContent>
-							<Link href='/'>
-								<MenubarItem>AB Tasty</MenubarItem>
-							</Link>
-							<Link href='/'>
-								<MenubarItem>Ada Tech School</MenubarItem>
-							</Link>
-							<Link href='/'>
-								<MenubarItem>Licence LTMI</MenubarItem>
-							</Link>
-							<Link href='/'>
-								<MenubarItem>CV</MenubarItem>
-							</Link>
-						</MenubarSubContent>
-					</MenubarSub>
-					<MenubarSeparator />
-					<Link href='/interestsPage'>
+					<Link href='/abtPage'>
 						<MenubarItem className='uppercase tracking-[3]'>
-							Intérêts
-						</MenubarItem>
-					</Link>
-					<MenubarSeparator />
-					<Link href='/contactPage'>
-						<MenubarItem className='uppercase tracking-[3]'>
-							Contact
+							Missions AB Tasty
 						</MenubarItem>
 					</Link>
 				</MenubarContent>
