@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import NavigationBar from "../reactComponents/NavigationBar";
-import Footer from "../reactComponents/Footer";
+import Footer from "@/reactComponents/Footer";
 
 const robotoMono = Roboto_Mono({
 	variable: "--font-roboto-mono",
