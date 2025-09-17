@@ -80,14 +80,17 @@ export default function BiomePage() {
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
 									L’objectif principal était de créer une
-									application fonctionnelle et sécurisée,
-									offrant une expérience simple et intuitive
-									pour rechercher et ajouter des livres. Le
-									projet visait aussi à renforcer mes
-									compétences en backend, notamment dans la
-									gestion de bases relationnelles,
-									l’implémentation de JWT pour
-									l’authentification, et la communication
+									<strong> application fonctionnelle </strong>
+									et <strong> sécurisée</strong>, offrant une
+									expérience simple et directe pour rechercher
+									et ajouter des livres. Le projet visait
+									également à améliorer mes compétences en
+									backend, notamment dans la{" "}
+									<strong>
+										gestion de bases relationnelles
+									</strong>
+									, l’implémentation de <strong>JWT</strong>{" "}
+									pour l’authentification, et la communication
 									entre le frontend et l’API.
 								</p>
 								<br />
@@ -129,16 +132,21 @@ export default function BiomePage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
-									L’application permet aujourd’hui de gérer un
-									compte utilisateur, d’ajouter un livre par
-									son ISBN, d’écrire et de consulter des avis.
 									Les principales fonctionnalités sont
 									opérationnelles et offrent une base solide.
+									L’application permet aujourd’hui de{" "}
+									<strong>gérer un compte utilisateur</strong>
+									, d’<strong>ajouter un livre </strong>par
+									son ISBN, d’écrire et de consulter des avis.
+									<br />
+									<br />
 									Les prochaines améliorations prévues
-									concernent le déploiement en ligne, l’ajout
-									de tests automatisés et la dockerisation
-									pour faciliter la mise en production et
-									l’évolutivité.
+									concernent le{" "}
+									<strong>déploiement en ligne</strong>,
+									l’ajout de{" "}
+									<strong>tests automatisés</strong> et la
+									dockerisation pour faciliter la mise en
+									production et l’évolutivité.
 								</p>
 							</AccordionContent>
 						</AccordionItem>
