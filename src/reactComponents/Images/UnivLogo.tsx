@@ -1,5 +1,5 @@
 import Image from "next/image";
-import univLogo from "../../../../public/portfolio assets/univLogo.svg";
+import univLogo from "../../../public/logoUniv.svg";
 
 export default function UnivLogo() {
 	return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import abtasty from "../../../../public/abtasty.png";
+import abtasty from "../../../public/logoAbTasty.png";
 import Link from "next/link";
 
 export default function AbtastyLogo() {

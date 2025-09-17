@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portfolio from "../../../../public/portfolio assets/portfolioV2Logo.svg";
+import portfolio from "../../../public/logoPortfolio.svg";
 
 export default function PortfolioLogo() {
 	return (
