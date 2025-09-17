@@ -37,10 +37,18 @@ export default function portfolioPage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
-									Cette version de mon portfolio à pour but de
-									montrer l&apos;évolution de celui-ci ainsi
-									que les compétences et projets que j&apos;ai
-									développé depuis sa première version.
+									Ce portfolio a pour but de présenter mon{" "}
+									<strong>parcours</strong>, mes{" "}
+									<strong>compétences</strong> et les{" "}
+									<strong>projets</strong> sur lesquels
+									j&apos;ai pu travailler depuis le début de
+									ma formation.
+									<br />
+									Il a également vocation à montrer l&apos;
+									<strong>
+										évolution de mes compétences
+									</strong>{" "}
+									en se comparant à sa première version.
 								</p>
 								<br />
 
@@ -66,10 +74,14 @@ export default function portfolioPage() {
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
 									Ce portfolio avait plusieurs objectifs :
-									travailler sur un projet uniquement front
+									travailler sur un{" "}
+									<strong>projet uniquement front</strong>{" "}
 									après le développement fullstack de mon
-									projet de diplôme et mettre à jour et en
-									avant mes projets et compétences.
+									projet de diplôme mais aussi{" "}
+									<strong>mettre à jour</strong> et en avant{" "}
+									<strong>mes projets</strong> et{" "}
+									<strong>compétences</strong>.
+									<br />
 									<br />
 									Je voulais également expérimenter avec
 									<strong> Next.js </strong> et son système de
@@ -116,11 +128,16 @@ export default function portfolioPage() {
 								<p>
 									Le portfolio présente de manière claire et
 									fluide mon parcours, mes projets et
-									compétences. Les prochaines améliorations
-									concernent l&apos;ajout de tests
-									automatisés, la mise en place d&apos;un mode
-									sombre ainsi que la traduction en anglais du
-									site.
+									compétences.
+									<br />
+									Les prochaines améliorations concernent
+									principalement la mise en place d&apos;un{" "}
+									<strong>mode sombre</strong> ainsi que la{" "}
+									<strong>traduction en anglais</strong> du
+									site. Il y aura également une session de{" "}
+									<strong>réfactorisation</strong> et
+									d&apos;optimisation du code pour améliorer
+									d&apos;avantage la qualité du code.
 								</p>
 							</AccordionContent>
 						</AccordionItem>
