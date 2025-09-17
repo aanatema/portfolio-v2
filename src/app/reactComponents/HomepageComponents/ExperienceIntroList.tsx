@@ -1,10 +1,10 @@
 // ExperienceIntroList.tsx
 import { Badge } from "@/components/ui/badge";
-import AbtastyLogo from "../Images/AbtastyLogo";
-import AdaLogo from "../Images/AdaLogo";
-import AbtTechnoList from "../../app/abtPage/components/AbtTechnoList";
 import Link from "next/link";
-import UnivLogo from "../Images/UnivLogo";
+import AbtastyLogo from "@/reactComponents/Images/AbtastyLogo";
+import AdaLogo from "@/reactComponents/Images/AdaLogo";
+import UnivLogo from "@/reactComponents/Images/UnivLogo";
+import AbtTechnoList from "@/app/abtPage/components/AbtTechnoList";
 
 export const ExperienceIntroList = [
 	{
