@@ -15,7 +15,13 @@ export default function SchoolProjectsPage() {
 				</header>
 				<p className=' pb-4 '>
 					{" "}
-					Tous les projets sur <GithubBadge />
+					Ces projets ont été réalisés dans la première partie de ma
+					formation. Chaque sujet a été réalisé sur une période de{" "}
+					<strong>2 semaines</strong>, en équipe de{" "}
+					<strong>4 à 8 personnes</strong> appliquant la méthodologie{" "}
+					<strong>Agile</strong>.
+					<br />
+					Tous les projets sont disponible sur <GithubBadge />
 				</p>
 				<section className='flex flex-col gap-4 '>
 					{schoolProjects.map((project, index) => (
