@@ -34,21 +34,34 @@ export default function TopovisioPage() {
 								<p>
 									Ce projet est né pour répondre à la demande
 									de l&apos;entreprise Topovisio qui
-									souhaitait améliorer sa visibilité auprès de
-									ses clients. Jusqu&apos;a présent les
-									échanges se faisaient de manière directe
+									souhaitait{" "}
+									<strong>améliorer sa visibilité</strong>{" "}
+									auprès de ses clients. Jusqu&apos;a présent
+									les échanges se faisaient de manière directe
 									mais de plus en plus de clients ont évoqués
 									le besoin d&apos; avoir une plateforme leur
-									permettant de consulter les services et
-									coordonnées de l&apos; entreprise
+									permettant de{" "}
+									<strong>consulter les services</strong> et
+									<strong>
+										coordonnées de l&apos; entreprise
+									</strong>{" "}
 									facilement.
 									<br />
 									<br />
-									De mon côté, ce projet est une expérience
-									enrichissante car il me permet de répondre à
-									un besoin concret, mais également d&apos;
-									appliquer et d&apos; approfondir mes
-									connaissances en développement frontend.
+									De mon côté, ce projet est une{" "}
+									<strong>
+										expérience enrichissante
+									</strong>{" "}
+									car il me permet de{" "}
+									<strong>
+										répondre à un besoin concret
+									</strong>
+									, mais également d&apos; appliquer et
+									d&apos;{" "}
+									<strong>
+										approfondir mes connaissances
+									</strong>{" "}
+									en développement frontend.
 								</p>
 
 								{/* <section className='flex justify-end'>
@@ -72,17 +85,21 @@ export default function TopovisioPage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
-									Le but du projet est de concevoir un site
-									vitrine clair, moderne et professionnel afin
-									de présenter l’activité et les services de
-									topographie proposés. Il donne accès
+									Le but du projet est de{" "}
+									<strong>concevoir un site vitrine</strong>{" "}
+									clair, moderne et professionnel afin de{" "}
+									<strong>
+										présenter l’activité et les services
+									</strong>{" "}
+									de topographie proposés. Il donne accès
 									facilement aux coordonnées et moyens de
 									contact, améliore la visibilité et la
 									crédibilité de l’entreprise.
 									<br />
-									Ce projet offre une base claire et solide
-									qui permettra l&apos; évolution du site en
-									même temps que le développement de l&apos;
+									Ce projet offre une{" "}
+									<strong> base claire et solide</strong> qui
+									permettra l&apos; évolution du site en même
+									temps que le développement de l&apos;
 									entreprise.
 								</p>
 								<div className='mt-5 mb-5 flex flex-col gap-4'>
@@ -111,12 +128,18 @@ export default function TopovisioPage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
-									Le projet Topovisio est actuellement en
-									phase de conception. Une première étape de
-									recherche et d’échanges avec le
-									commanditaire a déjà eu lieu, ce qui a
-									permis de préciser les besoins et d’orienter
-									les choix techniques.
+									Le projet Topovisio est actuellement en{" "}
+									<strong>phase de conception</strong>.
+									<br />
+									Une première étape de recherche et
+									d’échanges avec le commanditaire a déjà eu
+									lieu, ce qui a permis de{" "}
+									<strong>préciser les besoins</strong> et
+									d&apos;
+									<strong>
+										orienter les choix techniques
+									</strong>
+									.
 									<br />
 									La charte graphique a été validée et
 									l&apos;élaboration des maquettes est
