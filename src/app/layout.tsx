@@ -22,8 +22,8 @@ export default function RootLayout({
 	return (
 		<html
 			lang='fr'
-			className={`${robotoMono.variable} `}>
-			<body className={`${robotoMono.variable}`}>
+			className={robotoMono.className}>
+			<body>
 				<NavigationBar />
 				{children}
 				<Footer />
