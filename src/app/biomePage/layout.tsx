@@ -8,7 +8,9 @@ export default function BiomeLayout({
 			<body>
 				{/* Layout UI */}
 				{/* Place children where you want to render a page or nested layout */}
-				<main>{children}</main>
+				<main>
+					<main>{children}</main>
+				</main>
 			</body>
 		</html>
 	);
