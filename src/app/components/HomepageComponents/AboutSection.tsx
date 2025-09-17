@@ -11,24 +11,28 @@ export default function AboutSection() {
 				<ProfilePicture />
 			</section>
 
-			<section>
-				<header className='font-bold'>Intro</header>
-				<p className='tracking-[3] text-start uppercase'>
+			<section className='pt-5'>
+				<p className='tracking-[2] text-start uppercase'>
 					[Open to work] / [Nantes]
 				</p>
 				<br />
 				<p>
 					Développeuse junior diplômée après deux ans de formation
-					dont douze mois en alternance, je cherche a intégrer une
-					équipe dynamique et bienveillante. J&apos;ai une préférence
-					marquée pour le front, en particulier les aspects liés à
-					l&apos;UI et l&apos;UX, mais suis également curieuse et
-					ouverte à l&apos;idée de développer mes compétences en back.
+					dont un an en <strong> alternance </strong>, j’ai développé
+					une vraie affinité pour le <strong>front-end</strong>,
+					notamment tout ce qui touche à l’UI et l’UX. Naturellement
+					<strong> curieuse</strong>, j&apos;aime découvrir de
+					nouveaux domaines et suis ouverte à renforcer mes
+					compétences backend.
 					<br />
-					Bienvenue sur mon portfolio, n&apos;hésitez pas à y faire un
-					tour pour en apprendre plus !
+					Aujourd&apos;hui, je cherche à intégrer une{" "}
+					<strong> équipe dynamique </strong>
+					et <strong> bienveillante </strong> dans laquelle je
+					pourrais m&apos;investir en continuant d&apos;apprendre.
 				</p>
 				<section className='justify-self-end'>
+					<br />
+
 					<Link
 						href='/aboutPage'
 						className='underline'>
