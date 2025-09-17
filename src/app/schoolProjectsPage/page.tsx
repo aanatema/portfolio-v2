@@ -21,6 +21,7 @@ export default function SchoolProjectsPage() {
 					<strong>4 à 8 personnes</strong> appliquant la méthodologie{" "}
 					<strong>Agile</strong>.
 					<br />
+					<br />
 					Tous les projets sont disponible sur <GithubBadge />
 				</p>
 				<section className='flex flex-col gap-4 '>
