@@ -1,7 +1,7 @@
 import { FolderOpen } from "lucide-react";
 import ProjectCard from "./components/ProjectCard";
 import { schoolProjects } from "./components/SchoolProjectCardList";
-import GithubBadge from "../components/Buttons/Badges/GithubBadge";
+import GithubBadge from "../../reactComponents/Buttons/Badges/GithubBadge";
 
 export default function SchoolProjectsPage() {
 	return (

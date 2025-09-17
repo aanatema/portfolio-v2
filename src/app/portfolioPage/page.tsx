@@ -8,7 +8,7 @@ import { FolderOpen } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import PortfolioLogo from "../components/Images/PortfolioLogo";
+import PortfolioLogo from "../../reactComponents/Images/PortfolioLogo";
 
 export default function portfolioPage() {
 	return (

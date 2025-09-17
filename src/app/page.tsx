@@ -1,4 +1,4 @@
-import { HomepageAccordion } from "./components/HomepageComponents/HomepageAccordion";
+import { HomepageAccordion } from "../reactComponents/HomepageComponents/HomepageAccordion";
 
 export default function Home() {
 	return (

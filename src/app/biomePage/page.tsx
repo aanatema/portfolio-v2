@@ -5,7 +5,7 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { FolderOpen } from "lucide-react";
-import BiomeLogo from "../components/Images/BiomeLogo";
+import BiomeLogo from "../../reactComponents/Images/BiomeLogo";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
