@@ -84,8 +84,8 @@ export default function AboutPage() {
 					</header>
 					<br />
 					<p>
-						Comme évoqué plutôt j&apos;aime apprendre et partager ce
-						qui fait de moi quelqu&apos;un de volontaire et animé
+						Comme évoqué plus tôt j&apos;aime apprendre et partager
+						ce qui fait de moi quelqu&apos;un de volontaire et animé
 						par l&apos;envie de{" "}
 						<strong> faire avancer les choses</strong>. Mon goût
 						pour le design me permet de porter une attention
