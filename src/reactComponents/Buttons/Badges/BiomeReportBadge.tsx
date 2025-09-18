@@ -9,6 +9,7 @@ export default function BiomeReportBadge() {
 				variant='blue'>
 				<Link
 					href='https://docs.google.com/document/d/1_87XS-Gj1mehjreemKiT1jZnhUIqP2ZP_lK126-xy6c/edit?usp=sharing'
+					target='_blank'
 					className='uppercase'>
 					Rapport de projet
 				</Link>

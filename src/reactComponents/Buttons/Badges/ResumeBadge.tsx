@@ -7,7 +7,9 @@ export default function ResumeBadge() {
 			<Badge
 				asChild
 				variant='pink'>
-				<Link href='https://drive.google.com/file/d/1UVDIrrWzIw7hXvhiFd0elewsjYQMmNZA/view?usp=sharing'>
+				<Link
+					href='https://drive.google.com/file/d/1UVDIrrWzIw7hXvhiFd0elewsjYQMmNZA/view?usp=sharing'
+					target='_blank'>
 					CV
 				</Link>
 			</Badge>

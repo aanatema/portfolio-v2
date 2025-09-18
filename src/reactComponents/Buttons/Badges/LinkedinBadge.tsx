@@ -9,6 +9,7 @@ export default function LinkedinBadge() {
 				variant='blue'>
 				<Link
 					href='https://linkedin.com/in/romane-boireau'
+					target='_blank'
 					className='uppercase'>
 					Linkedin
 				</Link>

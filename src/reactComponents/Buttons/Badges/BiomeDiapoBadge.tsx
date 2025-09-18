@@ -9,6 +9,7 @@ export default function BiomeDiapoBadge() {
 				variant='pink'>
 				<Link
 					href='https://drive.google.com/file/d/1UY5lBTgjq1HEdGtcRteHPQaJEXpcKBSA/view?usp=sharing'
+					target='_blank'
 					className='uppercase'>
 					Diapo
 				</Link>
