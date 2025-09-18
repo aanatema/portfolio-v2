@@ -9,6 +9,8 @@ import BiomeLogo from "../../reactComponents/Images/BiomeLogo";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge";
+import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
 
 export default function BiomePage() {
 	return (
@@ -58,7 +60,13 @@ export default function BiomePage() {
 								</p>
 								<br />
 
-								<section className='flex justify-end'>
+								<section className='flex flex-col gap-4 items-center '>
+									<div className='flex gap-4'>
+										{" "}
+										<BiomeReportBadge />
+										<BiomeDiapoBadge />
+									</div>
+
 									<Badge
 										asChild
 										variant='yellow'>
@@ -151,6 +159,11 @@ export default function BiomePage() {
 							</AccordionContent>
 						</AccordionItem>
 					</Accordion>
+					<section className='flex flex-col justify-center mt-5 mb-5'>
+						<h1 className='uppercase font-medium text-center'>
+							[Ressources]
+						</h1>
+					</section>
 				</section>
 			</main>
 		</>
