@@ -35,7 +35,7 @@ export function NavigationMenu() {
 					<MenubarSub>
 						<MenubarSubTrigger>Projets</MenubarSubTrigger>
 						<MenubarSubContent>
-							<Link href='/biomePage'>
+							<Link href='/biome'>
 								<MenubarItem> Biome</MenubarItem>
 							</Link>
 							<Link href='/portfolioPage'>

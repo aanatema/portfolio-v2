@@ -97,7 +97,7 @@ export default function portfolioPage() {
 									lequel j&apos;ai apprécié travailler sur mon
 									projet de{" "}
 									<a
-										href='/biomePage'
+										href='/biome'
 										className='underline'>
 										diplôme
 									</a>
