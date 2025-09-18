@@ -13,7 +13,7 @@ import PortfolioLogo from "../../reactComponents/Images/PortfolioLogo";
 export default function portfolioPage() {
 	return (
 		<>
-			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify md:mx-65'>
+			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify lg:text-pretty md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1'>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
@@ -48,7 +48,14 @@ export default function portfolioPage() {
 									<strong>
 										évolution de mes compétences
 									</strong>{" "}
-									en se comparant à sa première version.
+									en se comparant à sa{" "}
+									<a
+										href='https://romane-boireau.fr/accueil'
+										target='blank'
+										className='underline'>
+										première version
+									</a>
+									.
 								</p>
 								<br />
 
@@ -90,7 +97,7 @@ export default function portfolioPage() {
 									lequel j&apos;ai apprécié travailler sur mon
 									projet de{" "}
 									<a
-										href='/biomePage'
+										href='/biome'
 										className='underline'>
 										diplôme
 									</a>
@@ -137,7 +144,8 @@ export default function portfolioPage() {
 									site. Il y aura également une session de{" "}
 									<strong>réfactorisation</strong> et
 									d&apos;optimisation du code pour améliorer
-									d&apos;avantage la qualité du code.
+									d&apos;avantage la{" "}
+									<strong>qualité du code</strong>.
 								</p>
 							</AccordionContent>
 						</AccordionItem>

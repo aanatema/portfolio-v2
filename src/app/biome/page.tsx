@@ -9,11 +9,13 @@ import BiomeLogo from "../../reactComponents/Images/BiomeLogo";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge";
+import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
 
 export default function BiomePage() {
 	return (
 		<>
-			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify md:mx-65'>
+			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify lg:text-pretty md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 '>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
@@ -42,13 +44,16 @@ export default function BiomePage() {
 									bibliothèque virtuelle développée dans le
 									cadre de mon
 									<strong> projet de fin d’études</strong>.
-									<br /> L’idée est de permettre aux
-									utilisateurs d&apos;avoir un carnet de
-									lecture en ligne : ajouter des livres à
-									partir de leur ISBN, de partager leurs avis
-									et de consulter ceux des autres. Le projet
-									m’a permis de mettre en pratique mes
-									compétences en <strong>React</strong>,
+									<br />
+									<br />
+									L’idée est de permettre aux utilisateurs
+									d&apos;avoir un carnet de lecture en ligne :
+									ajouter des livres à partir de leur ISBN, de
+									partager leurs avis et de consulter ceux des
+									autres.
+									<br />
+									Le projet m’a permis de mettre en pratique
+									mes compétences en <strong>React</strong>,
 									<strong> TypeScript</strong>,
 									<strong> Express</strong>,
 									<strong> Prisma </strong>
@@ -58,7 +63,13 @@ export default function BiomePage() {
 								</p>
 								<br />
 
-								<section className='flex justify-end'>
+								<section className='flex flex-col gap-4 items-center '>
+									<div className='flex gap-4'>
+										{" "}
+										<BiomeReportBadge />
+										<BiomeDiapoBadge />
+									</div>
+
 									<Badge
 										asChild
 										variant='yellow'>
@@ -79,23 +90,55 @@ export default function BiomePage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col text-balance'>
 								<p>
-									L’objectif principal était de créer une
-									<strong> application fonctionnelle </strong>
-									et <strong> sécurisée</strong>, offrant une
-									expérience simple et directe pour rechercher
-									et ajouter des livres. Le projet visait
-									également à améliorer mes compétences en
-									backend, notamment dans la{" "}
+									L’objectif principal était de créer une{" "}
+									<strong>application fonctionnelle</strong>
+									, permettant aux utilisateurs de créer un
+									compte, ajouter des livres et avis à leur
+									bibliothèque, mais également de pouvoir
+									consulter celles des autres.
+									<br />
+									<br />
+									D’un point de vue technique, ce projet
+									visait à{" "}
 									<strong>
-										gestion de bases relationnelles
+										développer mes compétences en backend
+									</strong>{" "}
+									car je n’ai eu que des missions front au
+									cours de mon alternance. J’ai ainsi pu
+									améliorer mes connaissances en{" "}
+									<strong>
+										gestion de base de données
+										relationnelles
 									</strong>
-									, l’implémentation de <strong>JWT</strong>{" "}
-									pour l’authentification, et la communication
-									entre le frontend et l’API.
+									, dans l’implémentation un{" "}
+									<strong>
+										système d’authentification (JWT)
+									</strong>{" "}
+									mais aussi dans la communication entre le
+									front et le back grâce à l’API.
+									<br />
+									<br />
+									J’ai également tenu à apporter une attention
+									particulière à rendre Biome{" "}
+									<strong>accessible</strong> et à prendre en
+									compte les{" "}
+									<strong>enjeux d’écoconception</strong>.
+									Cela a déterminé le choix de mes technos et
+									l’aspect visuel du site.
+									<br />
+									<br />
+									Pour plus de détails sur ce projet, mon{" "}
+									<a
+										href='https://docs.google.com/document/d/1_87XS-Gj1mehjreemKiT1jZnhUIqP2ZP_lK126-xy6c/edit?usp=sharing'
+										target='_blank'
+										className='underline'>
+										rapport de projet
+									</a>{" "}
+									est à disposition.
 								</p>
 								<br />
 								<header className='font-bold'>Frontend</header>
-								<section className='flex flex-row gap-2 mb-4 mt-4 sm:pb-10 uppercase overflow-x-scroll overflow-y-hidden lg:overflow-hidden h-7'>
+								<section className='flex flex-row gap-2 my-4 sm:pb-10 uppercase overflow-x-scroll overflow-y-hidden lg:overflow-hidden h-7'>
 									<p>React</p>
 									<Separator orientation='vertical' />
 									<p>Typescript</p>

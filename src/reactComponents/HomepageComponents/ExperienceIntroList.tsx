@@ -1,10 +1,10 @@
 // ExperienceIntroList.tsx
 import { Badge } from "@/components/ui/badge";
-import AbtastyLogo from "../Images/AbtastyLogo";
-import AdaLogo from "../Images/AdaLogo";
-import AbtTechnoList from "../../app/abtPage/components/AbtTechnoList";
+import AbtTechnoList from "../../app/abtasty/components/AbtTechnoList";
 import Link from "next/link";
-import UnivLogo from "../Images/UnivLogo";
+import AbtastyLogo from "@/reactComponents/Images/AbtastyLogo";
+import AdaLogo from "@/reactComponents/Images/AdaLogo";
+import UnivLogo from "@/reactComponents/Images/UnivLogo";
 
 export const ExperienceIntroList = [
 	{
@@ -22,8 +22,10 @@ export const ExperienceIntroList = [
 				est une entreprise française proposant des solutions d’A/B
 				testing, de personnalisation et d’analytics. <br />
 				Au cours de mon alternance, j’ai contribué au développement
-				front-end, à l’amélioration de fonctionnalités existantes, et à
-				la création de documentation.
+				front-end de plusieurs projets, à l’amélioration de
+				fonctionnalités existantes et implémentation de nouvelles.
+				J&apos;ai pris également part dans la réalisation de
+				documentation.
 			</>
 		),
 		techs: <AbtTechnoList />,
@@ -32,7 +34,7 @@ export const ExperienceIntroList = [
 				asChild
 				variant='blue'>
 				<Link
-					href='/abtPage'
+					href='/abtasty'
 					className='uppercase'>
 					Mes missions
 				</Link>
@@ -63,7 +65,7 @@ export const ExperienceIntroList = [
 				asChild
 				variant='pink'>
 				<Link
-					href='/schoolProjectsPage'
+					href='/school-projects'
 					className='uppercase'>
 					Mes projets d&apos;école
 				</Link>

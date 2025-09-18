@@ -1,17 +1,17 @@
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
-export default function LinkedinBadge() {
+export default function BiomeDiapoBadge() {
 	return (
 		<>
 			<Badge
 				asChild
-				variant='blue'>
+				variant='pink'>
 				<Link
-					href='https://linkedin.com/in/romane-boireau'
+					href='https://drive.google.com/file/d/1UY5lBTgjq1HEdGtcRteHPQaJEXpcKBSA/view?usp=sharing'
 					target='_blank'
 					className='uppercase'>
-					Linkedin
+					Diapo
 				</Link>
 			</Badge>
 		</>

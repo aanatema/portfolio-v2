@@ -26,7 +26,7 @@ export function NavigationMenu() {
 							<Link href='/'>
 								<MenubarItem> Intro</MenubarItem>
 							</Link>
-							<Link href='/aboutPage'>
+							<Link href='/about'>
 								<MenubarItem>Présentation</MenubarItem>
 							</Link>
 						</MenubarSubContent>
@@ -35,24 +35,36 @@ export function NavigationMenu() {
 					<MenubarSub>
 						<MenubarSubTrigger>Projets</MenubarSubTrigger>
 						<MenubarSubContent>
-							<Link href='/biomePage'>
+							<Link href='/biome'>
 								<MenubarItem> Biome</MenubarItem>
 							</Link>
-							<Link href='/portfolioPage'>
+							<Link href='/portfolio'>
 								<MenubarItem>Portfolio</MenubarItem>
 							</Link>
-							<Link href='/topovisioPage'>
+							<Link href='/topovisio'>
 								<MenubarItem>Topovisio</MenubarItem>
 							</Link>
-							<Link href='/schoolProjectsPage'>
-								<MenubarItem>Projets d&apos;école</MenubarItem>
+							<Link href='/school-projects'>
+								<MenubarItem>Projets école</MenubarItem>
 							</Link>
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
-					<Link href='/abtPage'>
+					<Link href='/abtasty'>
 						<MenubarItem className='uppercase tracking-[3]'>
 							Missions AB Tasty
+						</MenubarItem>
+					</Link>
+					<MenubarSeparator />
+					<Link href='/abtasty#references'>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Références
+						</MenubarItem>
+					</Link>
+					<MenubarSeparator />
+					<Link href='/contact'>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Contact
 						</MenubarItem>
 					</Link>
 				</MenubarContent>

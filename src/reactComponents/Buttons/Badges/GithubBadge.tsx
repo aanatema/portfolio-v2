@@ -9,6 +9,7 @@ export default function GithubBadge() {
 				variant='yellow'>
 				<Link
 					href='https://github.com/aanatema'
+					target='_blank'
 					className='uppercase'>
 					GitHub
 				</Link>

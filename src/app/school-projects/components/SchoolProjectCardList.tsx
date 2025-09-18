@@ -2,11 +2,11 @@ export const schoolProjects = [
 	{
 		title: "Portfolio [Première version]",
 		description:
-			"Projet ayant pour but de présenter les projets réalisés pendant la formation.",
-		techs: ["React", "Bootstrap", "Email JS"],
+			"Projet ayant pour but de présenter les projets réalisés pendant la formation. Premier projet en autonomie complète.",
+		techs: ["React", "Bootstrap", "Email.JS", "HTML", "CSS", "JS"],
 		link: {
-			href: "https://web.archive.org/web/20250314091311/http://romane-boireau.fr",
-			label: "Archive du site",
+			href: "http://romane-boireau.fr",
+			label: "Premier portfolio",
 		},
 	},
 	{

@@ -34,13 +34,13 @@ export default function AboutSection() {
 					<br />
 
 					<Link
-						href='/aboutPage'
+						href='/about'
 						className='underline'>
 						<p>En savoir plus</p>
 					</Link>
 				</section>
 			</section>
-			<section className='flex flex-row gap-2 mt-4 mb-4 justify-evenly'>
+			<section className='flex flex-row gap-2 my-4 justify-evenly'>
 				<ResumeBadge />
 				<LinkedinBadge />
 				<GithubBadge />

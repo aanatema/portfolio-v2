@@ -1,19 +1,21 @@
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
-export default function LinkedinBadge() {
+export default function BiomeReportBadge() {
 	return (
 		<>
 			<Badge
 				asChild
 				variant='blue'>
 				<Link
-					href='https://linkedin.com/in/romane-boireau'
+					href='https://docs.google.com/document/d/1_87XS-Gj1mehjreemKiT1jZnhUIqP2ZP_lK126-xy6c/edit?usp=sharing'
 					target='_blank'
 					className='uppercase'>
-					Linkedin
+					Rapport de projet
 				</Link>
 			</Badge>
 		</>
 	);
 }
+
+

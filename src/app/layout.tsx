@@ -23,9 +23,9 @@ export default function RootLayout({
 		<html
 			lang='fr'
 			className={robotoMono.className}>
-			<body>
+			<body className='flex flex-col min-h-screen'>
 				<NavigationBar />
-				{children}
+				<main className='flex-grow'>{children}</main>
 				<Footer />
 			</body>
 		</html>
