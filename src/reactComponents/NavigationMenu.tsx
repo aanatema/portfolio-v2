@@ -55,6 +55,18 @@ export function NavigationMenu() {
 							Missions AB Tasty
 						</MenubarItem>
 					</Link>
+					<MenubarSeparator />
+					<Link href='/abtasty#references'>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Références
+						</MenubarItem>
+					</Link>
+					<MenubarSeparator />
+					<Link href='/contact'>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Contact
+						</MenubarItem>
+					</Link>
 				</MenubarContent>
 			</MenubarMenu>
 		</Menubar>
