@@ -159,11 +159,6 @@ export default function BiomePage() {
 							</AccordionContent>
 						</AccordionItem>
 					</Accordion>
-					<section className='flex flex-col justify-center mt-5 mb-5'>
-						<h1 className='uppercase font-medium text-center'>
-							[Ressources]
-						</h1>
-					</section>
 				</section>
 			</main>
 		</>
