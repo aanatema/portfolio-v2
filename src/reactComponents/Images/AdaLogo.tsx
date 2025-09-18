@@ -1,5 +1,5 @@
 import Image from "next/image";
-import adaLogo from "../../../../public/portfolio assets/adaLogo.svg";
+import adaLogo from "../../../public/logoAda.svg";
 
 export default function AdaLogo() {
 	return (

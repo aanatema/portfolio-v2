@@ -1,10 +1,8 @@
-import { HomepageAccordion } from "./components/HomepageComponents/HomepageAccordion";
-import HomepageRedirection from "./components/HomepageComponents/HomepageRedirection";
+import { HomepageAccordion } from "../reactComponents/HomepageComponents/HomepageAccordion";
 
 export default function Home() {
 	return (
 		<>
-			<HomepageRedirection />
 			<main className='md:mx-65'>
 				<HomepageAccordion />
 			</main>

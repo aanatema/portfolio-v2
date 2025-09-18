@@ -1,5 +1,5 @@
 import Image from "next/image";
-import biome from "../../../../public/portfolio assets/biomeLogo.svg"
+import biome from "../../../public/logoBiome.svg";
 
 export default function BiomeLogo() {
 	return (

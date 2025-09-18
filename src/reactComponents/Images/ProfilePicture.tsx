@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pp from "../../../../public/pp.jpg";
+import pp from "../../../public/pp.jpg";
 
 export default function ProfilePicture() {
     return (

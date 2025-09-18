@@ -3,8 +3,8 @@ import { abtMissionsList } from "./components/AbtMissionsList";
 import AbtMissions from "./components/AbtMissions";
 import AbtTechnoList from "./components/AbtTechnoList";
 import { Separator } from "@/components/ui/separator";
-import References from "../components/HomepageComponents/References";
-import ReferencesBadge from "../components/Buttons/Badges/ReferencesBadge";
+import References from "../../reactComponents/HomepageComponents/References";
+import ReferencesBadge from "../../reactComponents/Buttons/Badges/ReferencesBadge";
 
 export default function AbtPage() {
 	return (
