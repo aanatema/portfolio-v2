@@ -38,7 +38,7 @@ export function NavigationMenu() {
 							<Link href='/biome'>
 								<MenubarItem> Biome</MenubarItem>
 							</Link>
-							<Link href='/portfolioPage'>
+							<Link href='/portfolio'>
 								<MenubarItem>Portfolio</MenubarItem>
 							</Link>
 							<Link href='/topovisioPage'>
