@@ -5,7 +5,7 @@ export default function TopovisioProject() {
 	return (
 		<>
 			<Link
-				href='/topovisioPage'
+				href='/topovisio'
 				className='flex col-2 gap-5'>
 				<FileText className='h-8 w-8 shrink-0 stroke-1 stroke-blue' />
 				<div className='flex flex-col '>

@@ -41,7 +41,7 @@ export function NavigationMenu() {
 							<Link href='/portfolio'>
 								<MenubarItem>Portfolio</MenubarItem>
 							</Link>
-							<Link href='/topovisioPage'>
+							<Link href='/topovisio'>
 								<MenubarItem>Topovisio</MenubarItem>
 							</Link>
 							<Link href='/school-projects'>
