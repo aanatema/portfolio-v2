@@ -1,5 +1,4 @@
 import LinkedinBadge from "@/reactComponents/Buttons/Badges/LinkedinBadge";
-import ResumeBadge from "@/reactComponents/Buttons/Badges/ResumeBadge";
 import { FolderOpen } from "lucide-react";
 
 export default function Contact() {
@@ -22,7 +21,6 @@ export default function Contact() {
 					<p className='uppercase pb-2'>[Par message]</p>
 					<LinkedinBadge />
 				</div>
-				
 			</section>
 		</main>
 	);
