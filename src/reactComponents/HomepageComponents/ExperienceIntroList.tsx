@@ -2,7 +2,7 @@
 import { Badge } from "@/components/ui/badge";
 import AbtastyLogo from "../Images/AbtastyLogo";
 import AdaLogo from "../Images/AdaLogo";
-import AbtTechnoList from "../../app/abtPage/components/AbtTechnoList";
+import AbtTechnoList from "../../app/abtasty/components/AbtTechnoList";
 import Link from "next/link";
 import UnivLogo from "../Images/UnivLogo";
 
