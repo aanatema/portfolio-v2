@@ -13,7 +13,7 @@ export default function SchoolProjectsPage() {
 						Projets d&apos;école
 					</h1>
 				</header>
-				<p className=' pb-4 '>
+				<p className='pb-4 '>
 					{" "}
 					Ces projets ont été réalisés dans la première partie de ma
 					formation. Chaque sujet a été réalisé sur une période de{" "}
@@ -23,6 +23,8 @@ export default function SchoolProjectsPage() {
 					<br />
 					<br />
 					Tous les projets sont disponible sur <GithubBadge />
+					<br /> Le detail des projets est visible sur mon premier
+					portfolio.
 				</p>
 				<section className='flex flex-col gap-4 '>
 					{schoolProjects.map((project, index) => (
