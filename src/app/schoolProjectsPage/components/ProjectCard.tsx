@@ -7,7 +7,6 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@radix-ui/react-separator";
 import Link from "next/link";
 
 interface ProjectCardProps {
@@ -29,15 +28,13 @@ export default function ProjectCard({
 				<CardTitle>{title}</CardTitle>
 				<CardDescription>{description}</CardDescription>
 			</CardHeader>
-			<CardContent className='flex flex-row gap-2 uppercase text-sm overflow-scroll h-5'>
+			<CardContent className='flex flex-row gap-2  uppercase text-sm overflow-scroll h-10'>
 				{techs.map((tech, idx) => (
 					<span
 						key={idx}
-						className='flex items-center gap-2'>
+						className='flex items-center gap-2 '>
 						<p>{tech}</p>
-						{idx < techs.length - 1 && (
-							<Separator orientation='vertical' />
-						)}
+						{idx < techs.length - 1}
 					</span>
 				))}
 			</CardContent>
