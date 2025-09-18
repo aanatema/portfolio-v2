@@ -34,7 +34,7 @@ export default function AboutSection() {
 					<br />
 
 					<Link
-						href='/aboutPage'
+						href='/about'
 						className='underline'>
 						<p>En savoir plus</p>
 					</Link>

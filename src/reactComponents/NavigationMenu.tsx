@@ -26,7 +26,7 @@ export function NavigationMenu() {
 							<Link href='/'>
 								<MenubarItem> Intro</MenubarItem>
 							</Link>
-							<Link href='/aboutPage'>
+							<Link href='/about'>
 								<MenubarItem>Présentation</MenubarItem>
 							</Link>
 						</MenubarSubContent>
