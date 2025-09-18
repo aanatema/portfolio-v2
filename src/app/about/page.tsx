@@ -68,6 +68,7 @@ export default function AboutPage() {
 						pas uniquement cantonnées à leurs projets sans
 						compréhension collective.
 						<br />
+						<br />
 						J’apprécie beaucoup échanger sur les questions d’
 						<strong>UI/UX </strong>
 						et autres enjeux liés aux différents rôles d’une équipe
@@ -94,20 +95,19 @@ export default function AboutPage() {
 						développement de fonctionnalités et facilite les
 						échanges avec l&apos;équipe design.
 						<br />
+						<br />
 						Mon passage au sein d&apos;AB Tasty m&apos;a permis de
 						mettre en application mes connaissances sur des{" "}
 						<strong>projets matures et complexes</strong> en
 						m&apos;adaptant aux standards de qualité et processus en
 						vigueur. J&apos;ai pu développer mes compétences,
-						notamment en <strong>React</strong> et
-						<strong>Typescript</strong> en conditions réelles.
+						notamment en <strong>React</strong> et{" "}
+						<strong>Typescript </strong> en conditions réelles.
 						<br />
 						<br />
 						J&apos;aime écrire de la <strong>documentation</strong>,
-						une tâche qui n&apos;est pas souvent très appréciée,
-						cela me permet donc de maintenir à jour les processus
-						pour assurer un environnement de travail clair et
-						efficace pour tous sans y être contrainte.
+						une tâche essentielle au développement de chaque projet
+						mais qui est pourtant trop peu appréciée.
 					</p>
 				</section>
 			</main>
