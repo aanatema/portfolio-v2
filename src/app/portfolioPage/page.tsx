@@ -144,7 +144,8 @@ export default function portfolioPage() {
 									site. Il y aura également une session de{" "}
 									<strong>réfactorisation</strong> et
 									d&apos;optimisation du code pour améliorer
-									d&apos;avantage la qualité du code.
+									d&apos;avantage la{" "}
+									<strong>qualité du code</strong>.
 								</p>
 							</AccordionContent>
 						</AccordionItem>
