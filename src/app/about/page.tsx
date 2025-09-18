@@ -30,7 +30,7 @@ export default function AboutPage() {
 						<br />
 						Mon{" "}
 						<a
-							href='/abtPage'
+							href='/abtasty'
 							className='underline font-bold'>
 							alternance
 						</a>{" "}

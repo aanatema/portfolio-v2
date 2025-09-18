@@ -50,7 +50,7 @@ export function NavigationMenu() {
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
-					<Link href='/abtPage'>
+					<Link href='/abtasty'>
 						<MenubarItem className='uppercase tracking-[3]'>
 							Missions AB Tasty
 						</MenubarItem>
