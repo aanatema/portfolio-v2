@@ -102,7 +102,7 @@ export default function TopovisioPage() {
 									temps que le développement de l&apos;
 									entreprise.
 								</p>
-								<div className='mt-5 mb-5 flex flex-col gap-4'>
+								<div className='my-5flex flex-col gap-4'>
 									<header className='font-bold'>
 										Technos envisagées
 									</header>

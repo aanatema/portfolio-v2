@@ -27,7 +27,7 @@ export function HomepageAccordion() {
 				<AccordionTrigger>À propos</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-2 text-balance text-justify'>
 					<AboutSection />
-					<div className='mt-4 mb-4'>
+					<div className='my-4'>
 						<FrontendTechnoList />
 						<BackendTechnoList />
 					</div>
