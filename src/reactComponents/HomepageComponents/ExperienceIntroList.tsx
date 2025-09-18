@@ -22,8 +22,10 @@ export const ExperienceIntroList = [
 				est une entreprise française proposant des solutions d’A/B
 				testing, de personnalisation et d’analytics. <br />
 				Au cours de mon alternance, j’ai contribué au développement
-				front-end, à l’amélioration de fonctionnalités existantes, et à
-				la création de documentation.
+				front-end de plusieurs projets, à l’amélioration de
+				fonctionnalités existantes et implémentation de nouvelles.
+				J&apos;ai pris également part dans la réalisation de
+				documentation.
 			</>
 		),
 		techs: <AbtTechnoList />,
