@@ -45,7 +45,7 @@ export function NavigationMenu() {
 								<MenubarItem>Topovisio</MenubarItem>
 							</Link>
 							<Link href='/school-projects'>
-								<MenubarItem>Projets d&apos;école</MenubarItem>
+								<MenubarItem>Projets école</MenubarItem>
 							</Link>
 						</MenubarSubContent>
 					</MenubarSub>
