@@ -25,7 +25,7 @@ export function HomepageAccordion() {
 			defaultValue='item-1'>
 			<AccordionItem value='item-1'>
 				<AccordionTrigger>À propos</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-2 text-balance text-justify'>
+				<AccordionContent className='flex flex-col gap-2 text-pretty  text-justify'>
 					<AboutSection />
 					<div className='my-4'>
 						<FrontendTechnoList />
@@ -39,7 +39,7 @@ export function HomepageAccordion() {
 			</AccordionItem>
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Projets</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-6 text-balance m-5 ml-15 '>
+				<AccordionContent className='flex flex-col gap-6 text-pretty  m-5 ml-15 '>
 					<BiomeProject />
 					<PortfolioProject />
 					<TopovisioProject />
@@ -48,7 +48,7 @@ export function HomepageAccordion() {
 			</AccordionItem>
 			<AccordionItem value='item-3'>
 				<AccordionTrigger>Parcours</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-4 text-balance'>
+				<AccordionContent className='flex flex-col gap-4 text-pretty '>
 					<Experiences />
 					<div className='flex flex-col gap-4 items-center'>
 						<p className='uppercase tracking-[3]'>
