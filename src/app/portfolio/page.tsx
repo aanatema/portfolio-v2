@@ -35,7 +35,7 @@ export default function portfolioPage() {
 								className='border-none'>
 								[Contexte]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-balance'>
+							<AccordionContent className='flex flex-col text-pretty '>
 								<p>
 									Ce portfolio a pour but de présenter mon{" "}
 									<strong>parcours</strong>, mes{" "}
@@ -78,7 +78,7 @@ export default function portfolioPage() {
 								className='border-none'>
 								[Objectifs]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-balance'>
+							<AccordionContent className='flex flex-col text-pretty '>
 								<p>
 									Ce portfolio avait plusieurs objectifs :
 									travailler sur un{" "}
@@ -111,7 +111,7 @@ export default function portfolioPage() {
 								className='border-none'>
 								[Technos]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-balance'>
+							<AccordionContent className='flex flex-col text-pretty '>
 								<section className='flex flex-row gap-2 uppercase overflow-scroll h-5'>
 									<p>React</p>
 									<Separator orientation='vertical' />
@@ -131,7 +131,7 @@ export default function portfolioPage() {
 								className='border-none'>
 								[Résultats et futur]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-balance'>
+							<AccordionContent className='flex flex-col text-pretty '>
 								<p>
 									Le portfolio présente de manière claire et
 									fluide mon parcours, mes projets et
