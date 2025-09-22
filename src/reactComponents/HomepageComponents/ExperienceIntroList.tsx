@@ -87,12 +87,11 @@ export const ExperienceIntroList = [
 				<br />
 				J&apos;ai beaucoup apprécié la diversité qu&apos;apporte
 				l&apos;étude des cultures, littératures et civilisations
-				étrangères. C&apos;est ce besoin de <strong>
-					{" "}
-					variété{" "}
-				</strong>{" "}
-				qui m&apos;a dirigée vers le développement web lors de ma
-				réorientation.
+				étrangères. Mais les opportunités limitées et le manque
+				d&apos;applications concrètes m&apos;ont poussés à réfléchir à
+				d&apos;autres voies. C&apos;est ce besoin de{" "}
+				<strong> variété </strong> qui m&apos;a finalement dirigée vers
+				le développement web lors de ma réorientation.
 			</p>
 		),
 	},
