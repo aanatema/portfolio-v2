@@ -15,7 +15,7 @@ export default function AbtMissions({
 		<section>
 			<h1 className='uppercase font-medium text-left'>[{title}]</h1>
 
-			<p className='text-muted-foreground text-sm text-pretty lg:text-pretty'>
+			<p className='text-muted-foreground text-sm text-justify lg:text-pretty'>
 				{context}
 			</p>
 			<br />

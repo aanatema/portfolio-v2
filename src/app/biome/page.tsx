@@ -15,7 +15,7 @@ import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
 export default function BiomePage() {
 	return (
 		<>
-			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-pretty lg:text-pretty md:mx-65'>
+			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify lg:text-pretty md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 '>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
@@ -38,7 +38,7 @@ export default function BiomePage() {
 								className='border-none'>
 								[Contexte]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty  '>
+							<AccordionContent className='flex flex-col   '>
 								<p>
 									Biome est une application web de
 									bibliothèque virtuelle développée dans le
@@ -88,7 +88,7 @@ export default function BiomePage() {
 								className='border-none'>
 								[Objectifs]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty  '>
+							<AccordionContent className='flex flex-col   '>
 								<p>
 									L’objectif principal était de créer une{" "}
 									<strong>application fonctionnelle</strong>
@@ -173,7 +173,7 @@ export default function BiomePage() {
 								className='border-none'>
 								[Résultats et futur]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty  '>
+							<AccordionContent className='flex flex-col   '>
 								<p>
 									Les principales fonctionnalités sont
 									opérationnelles et offrent une base solide.

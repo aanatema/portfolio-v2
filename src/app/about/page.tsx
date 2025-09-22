@@ -10,7 +10,7 @@ export default function AboutPage() {
 						À propos
 					</h1>
 				</header>
-				<section className='text-pretty lg:text-pretty'>
+				<section className='text-justify lg:text-pretty'>
 					<br />
 					<header className='font-medium uppercase'>
 						[Présentation]
