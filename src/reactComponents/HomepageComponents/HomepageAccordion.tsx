@@ -25,7 +25,7 @@ export function HomepageAccordion() {
 			defaultValue='item-1'>
 			<AccordionItem value='item-1'>
 				<AccordionTrigger>À propos</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-2 text-pretty  text-justify'>
+				<AccordionContent className='flex flex-col gap-2 text-pretty  text-pretty'>
 					<AboutSection />
 					<div className='my-4'>
 						<FrontendTechnoList />

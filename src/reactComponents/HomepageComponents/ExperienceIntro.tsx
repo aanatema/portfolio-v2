@@ -27,7 +27,7 @@ export default function ExperienceIntro({
 					{duration && <p className='text-center'>{duration}</p>}
 				</div>
 				<br />
-				<div className='text-justify'>{content}</div>
+				<div className='text-pretty'>{content}</div>
 				{techs && <div>{techs}</div>}
 				{extra && (
 					<div className='flex justify-center mt-6'>{extra}</div>
