@@ -45,7 +45,7 @@ export default function AboutPage() {
 						obtenu mon <strong> diplôme </strong> avec la
 						présentation de mon projet{" "}
 						<a
-							href='/biomePgae'
+							href='/biome'
 							className='underline'>
 							Biome
 						</a>
