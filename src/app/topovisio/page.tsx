@@ -30,7 +30,7 @@ export default function TopovisioPage() {
 								className='border-none'>
 								[Contexte]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty '>
+							<AccordionContent className='flex flex-col  '>
 								<p>
 									Ce projet est né pour répondre à la demande
 									de l&apos;entreprise Topovisio qui
@@ -83,7 +83,7 @@ export default function TopovisioPage() {
 								className='border-none'>
 								[Objectifs]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty '>
+							<AccordionContent className='flex flex-col  '>
 								<p>
 									Le but du projet est de{" "}
 									<strong>concevoir un site vitrine</strong>{" "}
@@ -126,7 +126,7 @@ export default function TopovisioPage() {
 								className='border-none'>
 								[Statut]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty '>
+							<AccordionContent className='flex flex-col  '>
 								<p>
 									Le projet Topovisio est actuellement en{" "}
 									<strong>phase de conception</strong>.

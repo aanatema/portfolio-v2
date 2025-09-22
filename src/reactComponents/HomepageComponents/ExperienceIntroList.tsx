@@ -81,18 +81,17 @@ export const ExperienceIntroList = [
 				La filière LTMI de l’Université de Poitiers forme aux langues
 				étrangères et à leurs applications dans des contextes
 				professionnels et interculturels. J’y ai étudié l’
-				<strong>anglais </strong>, le <strong> russe </strong> et l’
-				<strong>italien </strong>, en développant des compétences en
+				<strong>anglais</strong>, le <strong> russe </strong> et l’
+				<strong>italien</strong>, en développant des compétences en
 				traduction, communication et médiation entre cultures.
 				<br />
 				J&apos;ai beaucoup apprécié la diversité qu&apos;apporte
 				l&apos;étude des cultures, littératures et civilisations
-				étrangères. C&apos;est ce besoin de <strong>
-					{" "}
-					variété{" "}
-				</strong>{" "}
-				qui m&apos;a dirigée vers le développement web lors de ma
-				réorientation.
+				étrangères. Mais les opportunités limitées et le manque
+				d&apos;applications concrètes m&apos;ont poussés à réfléchir à
+				d&apos;autres voies. C&apos;est ce besoin de{" "}
+				<strong> variété </strong> qui m&apos;a finalement dirigée vers
+				le développement web lors de ma réorientation.
 			</p>
 		),
 	},

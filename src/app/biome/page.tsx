@@ -38,7 +38,7 @@ export default function BiomePage() {
 								className='border-none'>
 								[Contexte]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty  '>
+							<AccordionContent className='flex flex-col   '>
 								<p>
 									Biome est une application web de
 									bibliothèque virtuelle développée dans le
@@ -88,7 +88,7 @@ export default function BiomePage() {
 								className='border-none'>
 								[Objectifs]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty  '>
+							<AccordionContent className='flex flex-col   '>
 								<p>
 									L’objectif principal était de créer une{" "}
 									<strong>application fonctionnelle</strong>
@@ -173,7 +173,7 @@ export default function BiomePage() {
 								className='border-none'>
 								[Résultats et futur]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col text-pretty  '>
+							<AccordionContent className='flex flex-col   '>
 								<p>
 									Les principales fonctionnalités sont
 									opérationnelles et offrent une base solide.
