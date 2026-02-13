@@ -13,7 +13,6 @@ import SchoolProjects from "../Buttons/SchoolProjects";
 
 import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
-import ReferencesBadge from "../Buttons/Badges/ReferencesBadge";
 import AboutSection from "./AboutSection";
 
 export function HomepageAccordion() {
@@ -21,8 +20,7 @@ export function HomepageAccordion() {
 		<Accordion
 			type='single'
 			collapsible
-			className='w-full mt-5 pr-7 pl-7'
-			defaultValue='item-1'>
+			className='w-full mt-5 pr-7 pl-7'>
 			<AccordionItem value='item-1'>
 				<AccordionTrigger>À propos</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-2 text-justify lg:text-pretty'>
@@ -30,10 +28,6 @@ export function HomepageAccordion() {
 					<div className='my-4'>
 						<FrontendTechnoList />
 						<BackendTechnoList />
-					</div>
-
-					<div className='self-center'>
-						<ReferencesBadge />
 					</div>
 				</AccordionContent>
 			</AccordionItem>
