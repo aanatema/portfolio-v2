@@ -3,6 +3,7 @@ import ProfilePicture from "../Images/ProfilePicture";
 import GithubBadge from "../Buttons/Badges/GithubBadge";
 import LinkedinBadge from "../Buttons/Badges/LinkedinBadge";
 import ResumeBadge from "../Buttons/Badges/ResumeBadge";
+import ReferencesBadge from "../Buttons/Badges/ReferencesBadge";
 
 export default function AboutSection() {
 	return (
@@ -41,6 +42,7 @@ export default function AboutSection() {
 			</section>
 			<section className='flex flex-row gap-2 my-4 justify-evenly'>
 				<ResumeBadge />
+				<ReferencesBadge />
 				<LinkedinBadge />
 			</section>
 		</>
