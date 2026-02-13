@@ -70,15 +70,6 @@ export default function BiomePage() {
 										<BiomeDiapoBadge />
 									</div>
 
-									<Badge
-										asChild
-										variant='yellow'>
-										<Link
-											href='https://github.com/aanatema/project-biome'
-											className='uppercase'>
-											Biome sur GitHub
-										</Link>
-									</Badge>
 								</section>
 							</AccordionContent>
 						</AccordionItem>

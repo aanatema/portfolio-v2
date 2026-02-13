@@ -64,17 +64,6 @@ export default function TopovisioPage() {
 									en développement frontend.
 								</p>
 
-								{/* <section className='flex justify-end'>
-									<Badge
-										asChild
-										variant='yellow'>
-										<Link
-											href='https://github.com/aanatema/portfolio-v2'
-											className='uppercase'>
-											Le projet sur GitHub
-										</Link>
-									</Badge>
-								</section> */}
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem value='item-2'>
