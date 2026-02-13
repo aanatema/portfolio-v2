@@ -1,3 +1,4 @@
+import ReferencesBadge from "@/reactComponents/Buttons/Badges/ReferencesBadge";
 import { FolderOpen } from "lucide-react";
 
 export default function AboutPage() {
@@ -74,6 +75,9 @@ export default function AboutPage() {
 						m&apos;investis pleinement pour mon équipe et dans les
 						tâches qui me sont confiées.
 					</p>
+					<br />
+
+					<ReferencesBadge />
 				</section>
 			</main>
 		</>
