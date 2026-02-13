@@ -6,12 +6,12 @@ export default function ReferencesBadge() {
 		<>
 			<Badge
 				asChild
-				variant='pink'>
+				variant='yellow'>
 				<Link
 					href='/abtasty#references'
 					target='_blank'
 					className='uppercase'>
-					Contacts de références
+					Lettres de recommendations
 				</Link>
 			</Badge>
 		</>
