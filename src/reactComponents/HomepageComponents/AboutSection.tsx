@@ -14,7 +14,7 @@ export default function AboutSection() {
 
 			<section className=''>
 				<p>
-					Développeuse <strong>front-end</strong> diplômée, avec une
+					Développeuse <strong>front-end</strong> diplômée avec une
 					première expérience d’un an en environnement SaaS et un
 					intérêt pour le back, je cherche une{" "}
 					<strong> alternance </strong> dans le cadre de mon{" "}
