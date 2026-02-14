@@ -11,6 +11,8 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge";
 import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
+import { biomeTechnoList } from "./technos/BiomeTechnoList";
+import TechnoList from "./technos/Technos";
 
 export default function BiomePage() {
 	return (
@@ -30,47 +32,52 @@ export default function BiomePage() {
 					<Accordion
 						type='single'
 						collapsible
-						className='w-full'
-						defaultValue='item-1'>
+						className='w-full'>
 						<AccordionItem value='item-1'>
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
 								[Contexte]
 							</AccordionTrigger>
-							<AccordionContent className='flex flex-col   '>
+							<AccordionContent className='flex flex-col'>
 								<p>
-									Biome est une application web de
-									bibliothèque virtuelle développée dans le
-									cadre de mon
-									<strong> projet de fin d’études</strong>.
-									<br />
-									<br />
-									L’idée est de permettre aux utilisateurs
-									d&apos;avoir un carnet de lecture en ligne :
-									ajouter des livres à partir de leur ISBN, de
-									partager leurs avis et de consulter ceux des
-									autres.
-									<br />
-									Le projet m’a permis de mettre en pratique
-									mes compétences en <strong>React</strong>,
-									<strong> TypeScript</strong>,
-									<strong> Express</strong>,
-									<strong> Prisma </strong>
-									et <strong> PostgreSQL</strong>, en incluant
-									un focus sur l’authentification et la
-									gestion des données.
+									Biome est une{" "}
+									<strong>application web fullstack </strong>
+									permettant aux utilisateurices
+									d&apos;ajouter un livre via son ISBN, de
+									publier un avis sur celui-ci et de consulter
+									ceux de la communauté. Ce projet a été
+									réalisé en autonomie dans le cadre de mon
+									diplôme
+									<strong>
+										{" "}
+										RNCP 6 Concepteur Développeur
+										d&apos;Application
+									</strong>
+									.
 								</p>
-								<br />
-
 								<section className='flex flex-col gap-4 items-center '>
-									<div className='flex gap-4'>
+									<div className='flex gap-4 my-2'>
 										{" "}
 										<BiomeReportBadge />
 										<BiomeDiapoBadge />
 									</div>
-
 								</section>
+							</AccordionContent>
+						</AccordionItem>
+						<AccordionItem value='item-3'>
+							<AccordionTrigger
+								withIcons={false}
+								className='border-none'>
+								[Technos]
+							</AccordionTrigger>
+							<AccordionContent className='flex flex-col mx-1'>
+								{biomeTechnoList.map((techno, idx) => (
+									<TechnoList
+										key={idx}
+										{...techno}
+									/>
+								))}
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem value='item-2'>
@@ -128,34 +135,6 @@ export default function BiomePage() {
 									est à disposition.
 								</p>
 								<br />
-								<header className='font-bold'>Frontend</header>
-								<section className='flex flex-row gap-2 my-4 sm:pb-10 uppercase overflow-x-scroll overflow-y-hidden lg:overflow-hidden h-7'>
-									<p>React</p>
-									<Separator orientation='vertical' />
-									<p>Typescript</p>
-									<Separator orientation='vertical' />
-									<p>Tailwind</p>
-									<Separator orientation='vertical' />
-									<p>Shadcn/ui</p>
-									<Separator orientation='vertical' />
-								</section>
-								<br />
-								<header className='font-bold'>Backend</header>
-								<section className='flex flex-row gap-2 mb-2 uppercase overflow-scroll h-5'>
-									<p>Node</p>
-									<Separator orientation='vertical' />
-									<p>Express</p>
-									<Separator orientation='vertical' />
-									<p>Typescript</p>
-									<Separator orientation='vertical' />
-									<p>PostgreSQL</p>
-									<Separator orientation='vertical' />
-									<p>Prisma</p>
-									<Separator orientation='vertical' />
-									<p>JWT</p>
-									<Separator orientation='vertical' />
-									<p>bcrypt</p>
-								</section>
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem value='item-3'>
