@@ -13,6 +13,8 @@ import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge"
 import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
 import { biomeTechnoList } from "./technos/BiomeTechnoList";
 import TechnoList from "./technos/Technos";
+import GoalListComponent from "./goals/GoalListComponent";
+import { goalsList } from "./goals/goalsList";
 
 export default function BiomePage() {
 	return (
@@ -87,42 +89,13 @@ export default function BiomePage() {
 								[Objectifs]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col   '>
+								{goalsList.map((goal, idx) => (
+									<GoalListComponent
+										key={idx}
+										{...goal}
+									/>
+								))}
 								<p>
-									L’objectif principal était de créer une{" "}
-									<strong>application fonctionnelle</strong>
-									, permettant aux utilisateurs de créer un
-									compte, ajouter des livres et avis à leur
-									bibliothèque, mais également de pouvoir
-									consulter celles des autres.
-									<br />
-									<br />
-									D’un point de vue technique, ce projet
-									visait à{" "}
-									<strong>
-										développer mes compétences en backend
-									</strong>{" "}
-									car je n’ai eu que des missions front au
-									cours de mon alternance. J’ai ainsi pu
-									améliorer mes connaissances en{" "}
-									<strong>
-										gestion de base de données
-										relationnelles
-									</strong>
-									, dans l’implémentation un{" "}
-									<strong>
-										système d’authentification (JWT)
-									</strong>{" "}
-									mais aussi dans la communication entre le
-									front et le back grâce à l’API.
-									<br />
-									<br />
-									J’ai également tenu à apporter une attention
-									particulière à rendre Biome{" "}
-									<strong>accessible</strong> et à prendre en
-									compte les{" "}
-									<strong>enjeux d’écoconception</strong>.
-									Cela a déterminé le choix de mes technos et
-									l’aspect visuel du site.
 									<br />
 									<br />
 									Pour plus de détails sur ce projet, mon{" "}
@@ -137,29 +110,30 @@ export default function BiomePage() {
 								<br />
 							</AccordionContent>
 						</AccordionItem>
-						<AccordionItem value='item-3'>
+						<AccordionItem value='item-5'>
 							<AccordionTrigger
 								withIcons={false}
 								className='border-none'>
-								[Résultats et futur]
+								[Résultats]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col   '>
 								<p>
-									Les principales fonctionnalités sont
-									opérationnelles et offrent une base solide.
-									L’application permet aujourd’hui de{" "}
-									<strong>gérer un compte utilisateur</strong>
-									, d’<strong>ajouter un livre </strong>par
-									son ISBN, d’écrire et de consulter des avis.
+									Renforcement de mes compétences backend
+									(gestion de relations, authentification et
+									sécurité des données, middleware)
 									<br />
+									Objectifs fonctionnels et techniques
+									atteints
 									<br />
-									Les prochaines améliorations prévues
-									concernent le{" "}
-									<strong>déploiement en ligne</strong>,
-									l’ajout de{" "}
-									<strong>tests automatisés</strong> et la
-									dockerisation pour faciliter la mise en
-									production et l’évolutivité.
+									Focus sur les règles d&apos;accessibilités
+									(WCAG)
+									<br />
+									Création d&apos;une UI cohérente et
+									réutilisable
+									<br />
+									Planification, organisation et développement
+									d&apos;un projet fullstack en autonomie
+									<br />
 								</p>
 							</AccordionContent>
 						</AccordionItem>
