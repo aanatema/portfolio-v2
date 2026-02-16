@@ -6,14 +6,11 @@ import {
 } from "@/components/ui/accordion";
 import { FolderOpen } from "lucide-react";
 import BiomeLogo from "../../../reactComponents/Images/BiomeLogo";
-import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge";
 import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
 import { biomeTechnoList } from "./technos/BiomeTechnoList";
 import TechnoList from "./technos/Technos";
-import GoalListComponent from "./goals/GoalListComponent";
+import GoalListComponent from "../../../reactComponents/GoalListComponent";
 import { goalsList } from "./goals/goalsList";
 
 export default function BiomePage() {
