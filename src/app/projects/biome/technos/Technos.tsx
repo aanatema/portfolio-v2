@@ -24,3 +24,4 @@ export default function TechnoList({ category, items }: TechnoListProps) {
 		</>
 	);
 }
+ 
