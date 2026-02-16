@@ -7,9 +7,9 @@ import {
 import FrontendTechnoList from "../TechnoList/FrontendTechnoList";
 import BackendTechnoList from "../TechnoList/BackendTechnoList";
 import BiomeProject from "../Buttons/BiomeProject";
-import PortfolioProject from "../Buttons/PortfolioProject";
 import TopovisioProject from "../Buttons/TopovisioProject";
 import SchoolProjects from "../Buttons/SchoolProjects";
+import FlupaJTProject from "../Buttons/FlupaJTProject";
 
 import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
@@ -34,9 +34,9 @@ export function HomepageAccordion() {
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Projets</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-6 m-5 ml-15 '>
-					<BiomeProject />
-					<PortfolioProject />
+					<FlupaJTProject />
 					<TopovisioProject />
+					<BiomeProject />
 					<SchoolProjects />
 				</AccordionContent>
 			</AccordionItem>
