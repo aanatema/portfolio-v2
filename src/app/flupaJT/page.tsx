@@ -5,27 +5,24 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { FolderOpen } from "lucide-react";
-import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge";
-import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
-import { biomeTechnoList } from "./technos/BiomeTechnoList";
-import TechnoList from "./technos/Technos";
+import Link from "next/link";
+import { Badge } from "@/components/ui/badge";
 import GoalListComponent from "../../reactComponents/GoalListComponent";
-import { goalsList } from "./goals/goalsList";
-import BiomeLogo from "@/reactComponents/Images/BiomeLogo";
+import { goalsList } from "./components/goalsList";
 
-export default function BiomePage() {
+export default function FlupaJTPage() {
 	return (
 		<>
 			<main className='flex flex-col gap-2 justify-center mx-7 my-10 text-justify lg:text-pretty md:mx-65'>
 				<header className='flex flex-1 items-start justify-between border-b border-foreground mb-5 pb-1 '>
 					<FolderOpen className='h-8 w-8 shrink-0 stroke-1' />
 					<h1 className='text-left text-md font-medium tracking-wide uppercase self-center'>
-						Biome
+						Flupa, Journée thématique : UX en Résonnance
 					</h1>
 				</header>
-				<section className='flex justify-center mt-5 mb-5'>
+				{/* <section className='flex justify-center mt-5 mb-5'>
 					<BiomeLogo />
-				</section>
+				</section> */}
 
 				<section>
 					<Accordion
@@ -40,26 +37,44 @@ export default function BiomePage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col'>
 								<p>
-									Biome est une{" "}
-									<strong>application web fullstack </strong>
-									permettant aux utilisateurices
-									d&apos;ajouter un livre via son ISBN, de
-									publier un avis sur celui-ci et de consulter
-									ceux de la communauté. Ce projet a été
-									réalisé en autonomie dans le cadre de mon
-									diplôme
-									<strong>
-										{" "}
-										RNCP 6 Concepteur Développeur
-										d&apos;Application
-									</strong>
-									.
+									FLUPA est une association rassemblant des
+									professionnels du design d&apos;expérience
+									utilisateur. À l&apos;occasion de la
+									renaissance de leur &quot;Journée
+									thématique&quot;, je me suis portée
+									volontaire pour aider l&apos;équipe
+									communication.
+									<br />
+									Le site a pour objectifs de présenter
+									l&apos;évenement et les thématiques,
+									communiquer le programme et dévoiler les
+									orateurices qui l&apos;animeront ainsi que
+									de partager toutes les infos utiles pour les
+									intervenant(e)s et le public.
 								</p>
 								<section className='flex flex-col gap-4 items-center '>
 									<div className='flex gap-4 my-2'>
 										{" "}
-										<BiomeReportBadge />
-										<BiomeDiapoBadge />
+										<Badge
+											asChild
+											variant='blue'>
+											<Link
+												href='https://flupa.eu/'
+												target='_blank'
+												className='uppercase'>
+												FLUPA
+											</Link>
+										</Badge>
+										<Badge
+											asChild
+											variant='pink'>
+											<Link
+												href='https://journee-thematique.flupa.eu/'
+												target='_blank'
+												className='uppercase'>
+												Journée thématique
+											</Link>
+										</Badge>
 									</div>
 								</section>
 							</AccordionContent>
@@ -71,12 +86,13 @@ export default function BiomePage() {
 								[Technos]
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col mx-1'>
-								{biomeTechnoList.map((techno, idx) => (
-									<TechnoList
-										key={idx}
-										{...techno}
-									/>
-								))}
+								<p>
+									Pour respecter les contraintes de temps et
+									permettre à tous les membres de
+									l&apos;équipe de prendre la relève dans le
+									cas d&apos;un imprévu, c&apos;est{" "}
+									<strong>Webflow</strong> qui a été choisi.
+								</p>
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem value='item-2'>
@@ -92,19 +108,6 @@ export default function BiomePage() {
 										{...goal}
 									/>
 								))}
-								<p>
-									<br />
-									<br />
-									Pour plus de détails sur ce projet, mon{" "}
-									<a
-										href='https://docs.google.com/document/d/1_87XS-Gj1mehjreemKiT1jZnhUIqP2ZP_lK126-xy6c/edit?usp=sharing'
-										target='_blank'
-										className='underline'>
-										rapport de projet
-									</a>{" "}
-									est à disposition.
-								</p>
-								<br />
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem value='item-5'>
@@ -115,21 +118,25 @@ export default function BiomePage() {
 							</AccordionTrigger>
 							<AccordionContent className='flex flex-col   '>
 								<p>
-									Renforcement de mes compétences backend
-									(gestion de relations, authentification et
-									sécurité des données, middleware)
+									Développement des mes compétences sur un
+									outil no-code
 									<br />
 									Objectifs fonctionnels et techniques
 									atteints
 									<br />
-									Focus sur les règles d&apos;accessibilités
-									(WCAG)
+									Amélioration de mes capacités
+									d&apos;adaptation grâce à la collaboration
+									en asynchrone avec différentes équipes
+									(Communication, Logistique, Programmation)
+									ainsi qu&apos;à la gestion des imprévus et
+									des changements de dernière minutes.
 									<br />
-									Création d&apos;une UI cohérente et
-									réutilisable
+									Création d&apos;une architecture et
+									d&apos;une UI cohérente et réutilisable
 									<br />
 									Planification, organisation et développement
-									d&apos;un projet fullstack en autonomie
+									d&apos;un projet soumis à des contraintes de
+									temps et à une organisation changeante.
 									<br />
 								</p>
 							</AccordionContent>

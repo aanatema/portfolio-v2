@@ -18,13 +18,22 @@ export default function References() {
 				</CardHeader>
 				<CardContent>
 					<p>
-						Simen a été mon manager pendant mon alternance. Il a
+						Simen a été mon tech lead pendant mon alternance. Il a
 						assuré mon intégration au sein de l&apos;équipe ainsi
 						que mon évolution technique et professionnelle grâce aux
 						projets qu&apos;il m&apos;a confié.
 					</p>
 				</CardContent>
-				<CardFooter>
+				<CardFooter className='gap-5'>
+					<Badge
+						asChild
+						variant='yellow'>
+						<Link
+							href='https://drive.google.com/file/d/1Sr8dUZpudmGSZ1tIeJRAqn2ILznN1fW5/view?usp=sharing'
+							className='uppercase'>
+							Lettre de recommandation
+						</Link>
+					</Badge>
 					<Badge
 						asChild
 						variant='blue'>
@@ -51,7 +60,16 @@ export default function References() {
 						de son rôle et la relation entre nos deux métiers.
 					</p>
 				</CardContent>
-				<CardFooter>
+				<CardFooter className='gap-5'>
+					<Badge
+						asChild
+						variant='yellow'>
+						<Link
+							href='https://drive.google.com/file/d/1nXOdvjI6fYRxeIHLnCthCSXY9a2CPPaq/view?usp=sharing'
+							className='uppercase'>
+							Lettre de recommandation
+						</Link>
+					</Badge>
 					<Badge
 						asChild
 						variant='blue'>
