@@ -5,12 +5,12 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { FolderOpen } from "lucide-react";
-import BiomeLogo from "../../../reactComponents/Images/BiomeLogo";
+import BiomeLogo from "../../reactComponents/Images/BiomeLogo";
 import BiomeReportBadge from "@/reactComponents/Buttons/Badges/BiomeReportBadge";
 import BiomeDiapoBadge from "@/reactComponents/Buttons/Badges/BiomeDiapoBadge";
 import { biomeTechnoList } from "./technos/BiomeTechnoList";
 import TechnoList from "./technos/Technos";
-import GoalListComponent from "../../../reactComponents/GoalListComponent";
+import GoalListComponent from "../../reactComponents/GoalListComponent";
 import { goalsList } from "./goals/goalsList";
 
 export default function BiomePage() {

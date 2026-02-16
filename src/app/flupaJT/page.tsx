@@ -7,7 +7,7 @@ import {
 import { FolderOpen } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import GoalListComponent from "../../../reactComponents/GoalListComponent";
+import GoalListComponent from "../../reactComponents/GoalListComponent";
 import { goalsList } from "./components/goalsList";
 
 export default function FlupaJTPage() {
