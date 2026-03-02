@@ -11,7 +11,7 @@ export default function ReferencesBadge() {
 					href='/abtasty#references'
 					target='_blank'
 					className='uppercase'>
-					Lettres de recommendations
+					Recommandations
 				</Link>
 			</Badge>
 		</>
