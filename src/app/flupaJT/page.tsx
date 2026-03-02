@@ -39,11 +39,23 @@ export default function FlupaJTPage() {
 								<p>
 									FLUPA est une association rassemblant des
 									professionnels du design d&apos;expérience
-									utilisateur. À l&apos;occasion de la
-									renaissance de leur &quot;Journée
-									thématique&quot;, je me suis portée
-									volontaire pour aider l&apos;équipe
-									communication.
+									utilisateur. Cette année 2026 voit renaître
+									un événement phare, la &quot;
+									<strong>Journée thématique</strong>&quot;
+									avec pour titre &quot;UX en
+									Résonnances&quot;
+									<br />
+									J&apos;ai fait partie de l&apos;équipe
+									communication dont le rôle était de créer
+									l&apos;identité graphique, le site et tous
+									les supports liés à l&apos;événement (posts
+									réseaux sociaux, diapos, badges...). Mon
+									rôle au sein de cette équipe a été
+									d&apos;assurer la création et le déploiement
+									du site dans les temps impartis en
+									appliquant l&apos;identité graphique et en
+									tenant compte de l&apos;évolution du
+									programme.
 									<br />
 									Le site a pour objectifs de présenter
 									l&apos;évenement et les thématiques,
