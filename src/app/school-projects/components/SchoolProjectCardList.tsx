@@ -4,16 +4,12 @@ export const schoolProjects = [
 		description:
 			"Projet ayant pour but de présenter les projets réalisés pendant la formation. Premier projet en autonomie complète.",
 		techs: ["React", "Bootstrap", "Email.JS", "HTML", "CSS", "JS"],
-		link: {
-			href: "http://romane-boireau.fr",
-			label: "Premier portfolio",
-		},
 	},
 	{
 		title: "Spots & Potes [App Android]",
 		description:
 			"Application mobile Android reliée à une base de données en utilisant Android Studio. Découverte de l’architecture MVVM.",
-		techs: ["AndroidStudio", "Kotlin", "GradleGo", "MySQL", "RetroFit"],
+		techs: ["Android-Studio", "Kotlin", "Gradle-Go", "MySQL", "RetroFit"],
 	},
 	{
 		title: "Consonea [Projet Fullstack]",
