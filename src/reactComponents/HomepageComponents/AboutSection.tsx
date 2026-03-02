@@ -26,9 +26,9 @@ export default function AboutSection() {
 					<br />
 					<strong>Durée :</strong> 24 mois
 					<br />
-					<strong>Rythme :</strong> 4 Jr entreprise / 1 Jr école
+					<strong>Rythme :</strong> 4 Jours entreprise / 1 Jour école
 					<br />
-					<strong>Rentré :</strong> Septembre 2026
+					<strong>Rentrée :</strong> Septembre 2026
 				</p>
 				<section className='justify-self-end'>
 					<br />
