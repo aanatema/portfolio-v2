@@ -1,10 +1,10 @@
 // ExperienceIntroList.tsx
 import { Badge } from "@/components/ui/badge";
-import AbtTechnoList from "../../app/abtasty/components/AbtTechnoList";
 import Link from "next/link";
 import AbtastyLogo from "@/reactComponents/Images/AbtastyLogo";
 import AdaLogo from "@/reactComponents/Images/AdaLogo";
 import UnivLogo from "@/reactComponents/Images/UnivLogo";
+import AbtTechnoList from "@/app/abtasty/components/AbtTechnosList";
 
 export const ExperienceIntroList = [
 	{
@@ -28,7 +28,6 @@ export const ExperienceIntroList = [
 				documentation.
 			</>
 		),
-		techs: <AbtTechnoList />,
 		extra: (
 			<Badge
 				asChild
