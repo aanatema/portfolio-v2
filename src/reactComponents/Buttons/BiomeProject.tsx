@@ -6,7 +6,7 @@ export default function BiomeProject() {
 		<>
 			<Link
 				href='/biome'
-				className='flex col-2 gap-5'>
+				className='flex col-2 gap-5 hover:underline hover:cursor-pointer'>
 				<FileText className='h-8 w-8 shrink-0 stroke-1 stroke-pink' />
 				<div className='flex flex-col'>
 					<p className='uppercase tracking-[3]'>Biome</p>

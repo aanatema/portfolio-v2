@@ -6,7 +6,7 @@ export default function SchoolProjects() {
 		<>
 			<Link
 				href='/school-projects'
-				className='flex col-2 gap-5'>
+				className='flex col-2 gap-5 hover:underline hover:cursor-pointer'>
 				<FolderIcon className='h-8 w-8 shrink-0 stroke-1' />
 				<p className='flex self-center tracking-[3] uppercase'>
 					Projets d&apos;école
