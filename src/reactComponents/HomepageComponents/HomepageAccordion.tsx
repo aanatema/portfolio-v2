@@ -10,11 +10,9 @@ import BiomeProject from "../Buttons/BiomeProject";
 import TopovisioProject from "../Buttons/TopovisioProject";
 import SchoolProjects from "../Buttons/SchoolProjects";
 import FlupaJTProject from "../Buttons/FlupaJTProject";
-
 import ResumeBadge from "../Buttons/Badges/ResumeBadge";
 import Experiences from "./Experiences";
 import AboutSection from "./AboutSection";
-import AbtPage from "@/app/abtasty/page";
 import Link from "next/link";
 import { FolderIcon } from "lucide-react";
 

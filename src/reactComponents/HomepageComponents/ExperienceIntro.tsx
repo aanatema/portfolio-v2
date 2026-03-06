@@ -20,8 +20,8 @@ export default function ExperienceIntro({
 }: ExperienceIntroProps) {
 	return (
 		<>
-			{logo}
-			<section className='mb-4'>
+			<section className='flex justify-center mt-5'>{logo} </section>
+			<section className='my-4'>
 				<div className='flex flex-col items-center text-center uppercase tracking-[3]'>
 					{context}
 					{duration && <p className='text-center'>{duration}</p>}

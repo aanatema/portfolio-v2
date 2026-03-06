@@ -90,8 +90,12 @@ export default function References() {
 				</Card>
 			</section>
 			<p className='text-muted-foreground text-sm justify-end'>
-				* Informations de contact et lettres de recommandations sur
-				demande
+				* Informations de contact et lettres de recommandations{" "}
+				<Link
+					href='/contact'
+					className='underline'>
+					sur demande
+				</Link>
 			</p>
 		</section>
 	);
