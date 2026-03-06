@@ -4,7 +4,6 @@ import Link from "next/link";
 import AbtastyLogo from "@/reactComponents/Images/AbtastyLogo";
 import AdaLogo from "@/reactComponents/Images/AdaLogo";
 import UnivLogo from "@/reactComponents/Images/UnivLogo";
-import AbtTechnoList from "@/app/abtasty/components/AbtTechnosList";
 
 export const ExperienceIntroList = [
 	{
@@ -13,19 +12,24 @@ export const ExperienceIntroList = [
 		duration: "[Mai 2024 - Mai 2025]",
 		content: (
 			<>
-				<a
-					href='https://www.abtasty.com/fr/'
-					className='underline'
-					target='_blank'>
-					AB Tasty
-				</a>{" "}
-				est une entreprise française proposant des solutions d’A/B
-				testing, de personnalisation et d’analytics. <br />
-				Au cours de mon alternance, j’ai contribué au développement
-				front-end de plusieurs projets, à l’amélioration de
-				fonctionnalités existantes et implémentation de nouvelles.
-				J&apos;ai pris également part dans la réalisation de
-				documentation.
+				<p>
+					Développeuse frontend au sein du SaaS{" "}
+					<a
+						href='https://www.abtasty.com/fr/'
+						className='underline'
+						target='_blank'>
+						AB Tasty
+					</a>{" "}
+					dans une équipe de 9 personnes*, j&apos;ai contribué au
+					développement de plusieurs projets React / Typescript, à
+					l&apos;amélioration de la couverture de tests ainsi qu&apos;
+					à la création et mise à jour de documentation technique.
+				</p>
+				<p className='text-muted-foreground text-sm justify-end'>
+					<br />
+					*1 Tech Lead / 1 Product Manager / 1 Lead Dev / 4 Devs / 1
+					Designer / 1 QA
+				</p>
 			</>
 		),
 		extra: (
