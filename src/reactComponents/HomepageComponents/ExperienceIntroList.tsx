@@ -4,8 +4,33 @@ import Link from "next/link";
 import AbtastyLogo from "@/reactComponents/Images/AbtastyLogo";
 import AdaLogo from "@/reactComponents/Images/AdaLogo";
 import UnivLogo from "@/reactComponents/Images/UnivLogo";
+import EcvLogo from "../Images/EcvLogo";
 
 export const ExperienceIntroList = [
+	{
+		logo: <EcvLogo />,
+		context: "[Formation] / [24 mois]",
+		duration: "[Septembre 2026 - Septembre 2028]",
+		content: (
+			<>
+				<p>
+					Master en Développement Frontend à{" "}
+					<a
+						href='https://www.ecv.fr/digital/mastere-developpement-web/'
+						className='underline'
+						target='_blank'>
+						l&apos;École de Création Visuelle
+					</a>{" "}
+					(ECV) de Nantes. Le programme combine développement avancé,
+					gestion de projet et collaboration avec les équipes produit
+					et design. Il vise à former des développeurs capables de
+					piloter des projets techniques, concevoir des expériences
+					utilisateurs innovantes et contribuer aux décisions
+					techniques et créatives des produits digitaux.
+				</p>
+			</>
+		),
+	},
 	{
 		logo: <AbtastyLogo />,
 		context: "[Alternance] / [12 mois]",
@@ -50,17 +75,15 @@ export const ExperienceIntroList = [
 		duration: "[2023 - 2025]",
 		content: (
 			<p>
-				Une fois ma réorientation décidée, j&apos;ai entamé un cursus de
-				24 mois avec Ada Tech School dans le but d&apos;obtenir le titre{" "}
+				Cursus de 24 mois avec Ada Tech School pour obtenir le titre
 				<strong>
 					RNCP VI développeur concepteur d&apos;applications
 				</strong>
-				. Le premier module est la formation théorique et pratique en
-				présentiel et le deuxième correspond aux 12 mois en alternance.
-				<br /> Cette formation met l’accent sur la pratique,
-				l’autonomie, les projets collectifs tout en y intégrant les
-				rituels de travail (sprints, code reviews, rétro, démos...)
-				souvent utilisés en entreprise.
+				.
+				<br /> L&apos;école met l’accent sur la pratique,
+				l&apos;autonomie et la collaboration en nous assignant des
+				projets collectifs intégrant les rituels de travail (sprints,
+				code reviews, rétro, démos...) en pratique dans les entreprises.
 			</p>
 		),
 		extra: (
@@ -88,13 +111,6 @@ export const ExperienceIntroList = [
 				<strong>italien</strong>, en développant des compétences en
 				traduction, communication et médiation entre cultures.
 				<br />
-				J&apos;ai beaucoup apprécié la diversité qu&apos;apporte
-				l&apos;étude des cultures, littératures et civilisations
-				étrangères. Mais les opportunités limitées et le manque
-				d&apos;applications concrètes m&apos;ont poussés à réfléchir à
-				d&apos;autres voies. C&apos;est ce besoin de{" "}
-				<strong> variété </strong> qui m&apos;a finalement dirigée vers
-				le développement web lors de ma réorientation.
 			</p>
 		),
 	},
