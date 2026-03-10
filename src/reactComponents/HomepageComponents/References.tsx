@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function References() {
 	return (
-		<section id='references'>
+		<section>
 			<section className='flex flex-cols-2 gap-10 my-5'>
 				<Card>
 					<CardHeader>
