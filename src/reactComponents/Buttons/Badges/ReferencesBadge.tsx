@@ -8,8 +8,7 @@ export default function ReferencesBadge() {
 				asChild
 				variant='yellow'>
 				<Link
-					href='/abtasty#references'
-					target='_blank'
+					href='/abtasty'
 					className='uppercase'>
 					Recommandations
 				</Link>
