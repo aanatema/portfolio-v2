@@ -75,7 +75,7 @@ export const ExperienceIntroList = [
 		duration: "[2023 - 2025]",
 		content: (
 			<p>
-				Cursus de 24 mois avec Ada Tech School pour obtenir le titre
+				Cursus de 24 mois avec Ada Tech School pour obtenir le titre{" "}
 				<strong>
 					RNCP VI développeur concepteur d&apos;applications
 				</strong>
