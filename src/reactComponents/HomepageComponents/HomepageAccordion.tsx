@@ -26,10 +26,10 @@ export function HomepageAccordion() {
 				<AccordionTrigger>À propos</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-2 text-justify lg:text-pretty'>
 					<AboutSection />
-					<div className='my-4'>
+					{/* <div className='my-4'>
 						<FrontendTechnoList />
 						<BackendTechnoList />
-					</div>
+					</div> */}
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-2'>
