@@ -46,6 +46,7 @@
   --color-blue: var(--blue);
   --color-abt-blue: var(--abt-blue);
   --color-ada-pink: var(--ada-pink);
+  --color-ecv-purple : var(--ecv-purple)
 }
 
 :root {
@@ -86,6 +87,7 @@
   --blue: oklch(0.7706 0.0756 245.24);
   --abt-blue : oklch(0.3824 0.239898 275.2352);
   --ada-pink: oklch(0.909 0.0441 31.88);
+  --ecv-purple: oklch(0.7199 0.1585 292.75);
 }
 
 .dark {
