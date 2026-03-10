@@ -1,4 +1,10 @@
-import { Separator } from "@/components/ui/separator";
+import {
+	Card,
+	CardContent,
+	CardDescription,
+	CardHeader,
+	CardTitle,
+} from "@/components/ui/card";
 import { ReactNode } from "react";
 
 interface ExperienceIntroProps {
@@ -20,20 +26,31 @@ export default function ExperienceIntro({
 }: ExperienceIntroProps) {
 	return (
 		<>
-			<section className='flex justify-center mt-5'>{logo} </section>
-			<section className='my-4'>
-				<div className='flex flex-col items-center text-center uppercase tracking-[3]'>
-					{context}
-					{duration && <p className='text-center'>{duration}</p>}
-				</div>
-				<br />
-				<div className='text-justify lg:text-pretty'>{content}</div>
-				{techs && <div>{techs}</div>}
-				{extra && (
-					<div className='flex justify-center mt-6'>{extra}</div>
-				)}
+			<section className='flex gap-10 my-5'>
+				<Card>
+					<CardHeader>
+						<div className='flex justify-center my-5'>{logo}</div>
+
+						<CardTitle className='text-center'>{context}</CardTitle>
+						<CardDescription>
+							{duration && (
+								<p className='text-center'>{duration}</p>
+							)}{" "}
+						</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<p>{content}</p>
+						<p>
+							{techs && <div>{techs}</div>}
+							{extra && (
+								<div className='flex justify-end mt-6'>
+									{extra}
+								</div>
+							)}
+						</p>
+					</CardContent>
+				</Card>
 			</section>
-			<Separator />
 		</>
 	);
 }
