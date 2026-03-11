@@ -32,6 +32,15 @@ export function HomepageAccordion() {
 					</div> */}
 				</AccordionContent>
 			</AccordionItem>
+			<AccordionItem value='item-3'>
+				<AccordionTrigger>Projets</AccordionTrigger>
+				<AccordionContent className='flex flex-col gap-6 m-5 ml-15'>
+					<FlupaJTProject />
+					<TopovisioProject />
+					<BiomeProject />
+					<SchoolProjects />
+				</AccordionContent>
+			</AccordionItem>
 			<AccordionItem value='item-2'>
 				<AccordionTrigger>Expérience pro</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-2 text-justify lg:text-pretty ml-15 my-5'>
@@ -43,15 +52,6 @@ export function HomepageAccordion() {
 							Développeuse frontend à AB Tasty
 						</p>
 					</Link>
-				</AccordionContent>
-			</AccordionItem>
-			<AccordionItem value='item-3'>
-				<AccordionTrigger>Projets</AccordionTrigger>
-				<AccordionContent className='flex flex-col gap-6 m-5 ml-15'>
-					<FlupaJTProject />
-					<TopovisioProject />
-					<BiomeProject />
-					<SchoolProjects />
 				</AccordionContent>
 			</AccordionItem>
 			<AccordionItem value='item-4'>

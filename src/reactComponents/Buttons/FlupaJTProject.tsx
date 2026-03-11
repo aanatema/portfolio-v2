@@ -10,9 +10,11 @@ export default function FlupaJTProject() {
 				<FileText className='h-8 w-8 shrink-0 stroke-1 stroke-yellow' />
 				<div className='flex flex-col '>
 					<p className='uppercase tracking-[3]'>
-						Flupa, Journée thématique : UX en Résonnance
+						Journée thématique : UX en Résonnance
 					</p>
-					<p>Site pour un événement</p>
+					<p>
+						Site pour un des événements de l&apos;association FLUPA{" "}
+					</p>
 				</div>
 			</Link>
 		</>
