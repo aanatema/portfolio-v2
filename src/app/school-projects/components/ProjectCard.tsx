@@ -28,11 +28,9 @@ export default function ProjectCard({
 				<CardTitle>{title}</CardTitle>
 				<CardDescription>{description}</CardDescription>
 			</CardHeader>
-			<CardContent className='flex flex-row gap-2  uppercase text-sm overflow-scroll h-10'>
+			<CardContent className='flex flex-row gap-2 uppercase text-sm lg:overflow-hidden sm:overflow-scroll '>
 				{techs.map((tech, idx) => (
-					<span
-						key={idx}
-						className='flex items-center gap-2 '>
+					<span key={idx}>
 						<p>{tech}</p>
 						{idx < techs.length - 1}
 					</span>

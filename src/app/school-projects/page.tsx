@@ -1,7 +1,6 @@
 import { FolderOpen } from "lucide-react";
 import ProjectCard from "./components/ProjectCard";
 import { schoolProjects } from "./components/SchoolProjectCardList";
-import GithubBadge from "../../reactComponents/Buttons/Badges/GithubBadge";
 
 export default function SchoolProjectsPage() {
 	return (
@@ -13,18 +12,18 @@ export default function SchoolProjectsPage() {
 						Projets d&apos;école
 					</h1>
 				</header>
-				<p className='pb-4 '>
+				<p className='mb-10 '>
 					{" "}
-					Ces projets ont été réalisés dans la première partie de ma
-					formation. Chaque sujet a été réalisé sur une période de{" "}
-					<strong>2 semaines</strong>, en équipe de{" "}
-					<strong>4 à 8 personnes</strong> appliquant la méthodologie{" "}
-					<strong>Agile</strong>.
+					Projets réalisé sur des périodes de 2 semaines en équipe de
+					4 (4 semaines pour Consonéa et 8 personnes) en appliquant la
+					méthodologie <strong>Agile</strong>.
 					<br />
 					<br />
-					Tous les projets sont disponible sur <GithubBadge />
-					<br /> Le detail des projets est visible sur mon premier
-					portfolio.
+					Ils ont permis de simuler le développement de projets dans
+					des conditions proches des standards entreprises (tickets,
+					deadlines, technos imposées, cahier des charges,
+					retrospéctive...). Rapport oral et écrit des projets à
+					chaque fin de développement.
 				</p>
 				<section className='flex flex-col gap-4 '>
 					{schoolProjects.map((project, index) => (

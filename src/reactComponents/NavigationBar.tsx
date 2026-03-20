@@ -14,7 +14,7 @@ export default function NavigationBar() {
 				<NavigationMenu />
 			</section>
 			<p className='text-sm text-muted-foreground uppercase '>
-				Développeuse frontend junior
+				Développeuse frontend
 			</p>
 		</nav>
 	);

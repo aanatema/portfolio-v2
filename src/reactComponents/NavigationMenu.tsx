@@ -32,14 +32,31 @@ export function NavigationMenu() {
 						</MenubarSubContent>
 					</MenubarSub>
 					<MenubarSeparator />
+					<Link href='/abtasty'>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Alternance AB Tasty
+						</MenubarItem>
+					</Link>
+					<MenubarSeparator />
+					<Link href='/abtasty#references'>
+						<MenubarItem className='uppercase tracking-[3]'>
+							Références
+						</MenubarItem>
+					</Link>
+					<MenubarSeparator />
 					<MenubarSub>
 						<MenubarSubTrigger>Projets</MenubarSubTrigger>
 						<MenubarSubContent>
 							<Link href='/biome'>
 								<MenubarItem> Biome</MenubarItem>
 							</Link>
-							<Link href='/portfolio'>
-								<MenubarItem>Portfolio</MenubarItem>
+							<Link href='/esg17'>
+								<MenubarItem>ESG17</MenubarItem>
+							</Link>
+							<Link href='/flupaJT'>
+								<MenubarItem>
+									Flupa, Journée thématique
+								</MenubarItem>
 							</Link>
 							<Link href='/topovisio'>
 								<MenubarItem>Topovisio</MenubarItem>
@@ -49,18 +66,6 @@ export function NavigationMenu() {
 							</Link>
 						</MenubarSubContent>
 					</MenubarSub>
-					<MenubarSeparator />
-					<Link href='/abtasty'>
-						<MenubarItem className='uppercase tracking-[3]'>
-							Missions AB Tasty
-						</MenubarItem>
-					</Link>
-					<MenubarSeparator />
-					<Link href='/abtasty#references'>
-						<MenubarItem className='uppercase tracking-[3]'>
-							Références
-						</MenubarItem>
-					</Link>
 					<MenubarSeparator />
 					<Link href='/contact'>
 						<MenubarItem className='uppercase tracking-[3]'>

@@ -15,7 +15,7 @@ export default function Contact() {
 			<section className='flex flex-col gap-10 text-center'>
 				<div className=''>
 					<p className='uppercase'>[Par mail]</p>
-					<p className=''>romane.boireau.dev@gmail.com</p>
+					<p className=''>romane.boireau@protonmail.com</p>
 				</div>
 				<div>
 					<p className='uppercase pb-2'>[Par message]</p>
