@@ -36,7 +36,7 @@ export function HomepageAccordion() {
 				<AccordionTrigger>Projets</AccordionTrigger>
 				<AccordionContent className='flex flex-col gap-6 m-5 ml-15'>
 					<FlupaJTProject />
-					<TopovisioProject />
+					{/* <TopovisioProject /> */}
 					<BiomeProject />
 					<SchoolProjects />
 				</AccordionContent>
