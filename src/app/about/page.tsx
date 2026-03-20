@@ -28,7 +28,7 @@ export default function AboutPage() {
 						, j’ai choisi de poursuivre sur un Master Frontend afin
 						d’élargir le champ de mes compétences dans ce domaine.
 						<br />
-						C’est dans ce carde que je cherche une{" "}
+						C’est dans ce cadre que je cherche une{" "}
 						<strong>alternance</strong> de 24 mois pour une rentrée
 						en <strong>Septembre 2026</strong>.
 						<br />

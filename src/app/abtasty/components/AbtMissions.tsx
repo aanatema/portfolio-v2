@@ -13,13 +13,13 @@ export default function AbtMissions({
 }: AbtMissionsProps) {
 	return (
 		<section>
-			<h1 className='uppercase font-medium text-left'>[{title}]</h1>
+			<h1 className='uppercase text-left'>{title}</h1>
 
 			<p className='text-muted-foreground text-sm text-justify lg:text-pretty'>
 				{context}
 			</p>
 			<br />
-			<ul className=' space-y-4'>
+			<ul className='space-y-4'>
 				{missions.map((mission, idx) => (
 					<li key={idx}>{mission}</li>
 				))}

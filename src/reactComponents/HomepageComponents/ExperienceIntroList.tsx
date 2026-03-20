@@ -4,28 +4,57 @@ import Link from "next/link";
 import AbtastyLogo from "@/reactComponents/Images/AbtastyLogo";
 import AdaLogo from "@/reactComponents/Images/AdaLogo";
 import UnivLogo from "@/reactComponents/Images/UnivLogo";
-import AbtTechnoList from "@/app/abtasty/components/AbtTechnosList";
+import EcvLogo from "../Images/EcvLogo";
 
 export const ExperienceIntroList = [
+	{
+		logo: <EcvLogo />,
+		context: "[Formation] / [24 mois]",
+		duration: "[Septembre 2026 - Septembre 2028]",
+		content: (
+			<>
+				<p>
+					Master en Développement Frontend à{" "}
+					<a
+						href='https://www.ecv.fr/digital/mastere-developpement-web/'
+						className='underline'
+						target='_blank'>
+						l&apos;École de Création Visuelle
+					</a>{" "}
+					(ECV) de Nantes. Le programme combine développement avancé,
+					gestion de projet et collaboration avec les équipes produit
+					et design. Il vise à former des développeurs capables de
+					piloter des projets techniques, concevoir des expériences
+					utilisateurs innovantes et contribuer aux décisions
+					techniques et créatives des produits digitaux.
+				</p>
+			</>
+		),
+	},
 	{
 		logo: <AbtastyLogo />,
 		context: "[Alternance] / [12 mois]",
 		duration: "[Mai 2024 - Mai 2025]",
 		content: (
 			<>
-				<a
-					href='https://www.abtasty.com/fr/'
-					className='underline'
-					target='_blank'>
-					AB Tasty
-				</a>{" "}
-				est une entreprise française proposant des solutions d’A/B
-				testing, de personnalisation et d’analytics. <br />
-				Au cours de mon alternance, j’ai contribué au développement
-				front-end de plusieurs projets, à l’amélioration de
-				fonctionnalités existantes et implémentation de nouvelles.
-				J&apos;ai pris également part dans la réalisation de
-				documentation.
+				<p>
+					Développeuse frontend au sein du SaaS{" "}
+					<a
+						href='https://www.abtasty.com/fr/'
+						className='underline'
+						target='_blank'>
+						AB Tasty
+					</a>{" "}
+					dans une équipe de 9 personnes*, j&apos;ai contribué au
+					développement de plusieurs projets React / Typescript, à
+					l&apos;amélioration de la couverture de tests ainsi qu&apos;
+					à la création et mise à jour de documentation technique.
+				</p>
+				<p className='text-muted-foreground text-sm justify-end'>
+					<br />
+					*1 Tech Lead / 1 Product Manager / 1 Lead Dev / 4 Devs / 1
+					Designer / 1 QA
+				</p>
 			</>
 		),
 		extra: (
@@ -46,17 +75,15 @@ export const ExperienceIntroList = [
 		duration: "[2023 - 2025]",
 		content: (
 			<p>
-				Une fois ma réorientation décidée, j&apos;ai entamé un cursus de
-				24 mois avec Ada Tech School dans le but d&apos;obtenir le titre{" "}
+				Cursus de 24 mois avec Ada Tech School pour obtenir le titre{" "}
 				<strong>
 					RNCP VI développeur concepteur d&apos;applications
 				</strong>
-				. Le premier module est la formation théorique et pratique en
-				présentiel et le deuxième correspond aux 12 mois en alternance.
-				<br /> Cette formation met l’accent sur la pratique,
-				l’autonomie, les projets collectifs tout en y intégrant les
-				rituels de travail (sprints, code reviews, rétro, démos...)
-				souvent utilisés en entreprise.
+				.
+				<br /> L&apos;école met l’accent sur la pratique,
+				l&apos;autonomie et la collaboration en nous assignant des
+				projets collectifs intégrant les rituels de travail (sprints,
+				code reviews, rétro, démos...) en pratique dans les entreprises.
 			</p>
 		),
 		extra: (
@@ -84,13 +111,6 @@ export const ExperienceIntroList = [
 				<strong>italien</strong>, en développant des compétences en
 				traduction, communication et médiation entre cultures.
 				<br />
-				J&apos;ai beaucoup apprécié la diversité qu&apos;apporte
-				l&apos;étude des cultures, littératures et civilisations
-				étrangères. Mais les opportunités limitées et le manque
-				d&apos;applications concrètes m&apos;ont poussés à réfléchir à
-				d&apos;autres voies. C&apos;est ce besoin de{" "}
-				<strong> variété </strong> qui m&apos;a finalement dirigée vers
-				le développement web lors de ma réorientation.
 			</p>
 		),
 	},
